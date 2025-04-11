@@ -1,0 +1,547 @@
+2025-04-09 20:11:20,103 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 20:11:20,103 - [33mPress CTRL+C to quit[0m
+2025-04-09 20:11:20,113 -  * Restarting with watchdog (windowsapi)
+2025-04-09 20:11:20,520 -  * Debugger is active!
+2025-04-09 20:11:20,520 -  * Debugger PIN: 104-664-092
+2025-04-09 20:11:41,343 - 127.0.0.1 - - [09/Apr/2025 20:11:41] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:16:43,982 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 20:16:43,983 - [33mPress CTRL+C to quit[0m
+2025-04-09 20:16:43,986 -  * Restarting with watchdog (windowsapi)
+2025-04-09 20:16:44,423 -  * Debugger is active!
+2025-04-09 20:16:44,423 -  * Debugger PIN: 104-664-092
+2025-04-09 20:16:51,620 - 127.0.0.1 - - [09/Apr/2025 20:16:51] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:26:04,255 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 20:26:04,256 - [33mPress CTRL+C to quit[0m
+2025-04-09 20:26:04,256 -  * Restarting with watchdog (windowsapi)
+2025-04-09 20:26:05,353 -  * Debugger is active!
+2025-04-09 20:26:05,355 -  * Debugger PIN: 104-664-092
+2025-04-09 20:26:05,372 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\ordered_set\\__init__.py', reloading
+2025-04-09 20:26:05,385 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\osgeo\\__init__.py', reloading
+2025-04-09 20:26:05,398 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\osgeo_utils\\__init__.py', reloading
+2025-04-09 20:26:05,414 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\overrides\\__init__.py', reloading
+2025-04-09 20:26:05,428 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\overrides\\enforce.py', reloading
+2025-04-09 20:26:05,443 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\overrides\\overrides.py', reloading
+2025-04-09 20:26:05,456 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\packaging\\__init__.py', reloading
+2025-04-09 20:26:05,470 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\__init__.py', reloading
+2025-04-09 20:26:05,497 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\param\\__init__.py', reloading
+2025-04-09 20:26:05,519 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\param\\reactive.py', reloading
+2025-04-09 20:26:05,536 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\config.py', reloading
+2025-04-09 20:26:05,555 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\__version.py', reloading
+2025-04-09 20:26:05,567 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\depends.py', reloading
+2025-04-09 20:26:05,581 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\io\\__init__.py', reloading
+2025-04-09 20:26:05,594 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\io\\cache.py', reloading
+2025-04-09 20:26:05,613 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\io\\notebook.py', reloading
+2025-04-09 20:26:05,652 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\io\\server.py', reloading
+2025-04-09 20:26:05,678 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\io\\state.py', reloading
+2025-04-09 20:26:05,696 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\__init__.py', reloading
+2025-04-09 20:26:05,712 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\accordion.py', reloading
+2025-04-09 20:26:05,723 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\card.py', reloading
+2025-04-09 20:26:05,738 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\base.py', reloading
+2025-04-09 20:26:05,754 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\feed.py', reloading
+2025-04-09 20:26:05,771 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\flex.py', reloading
+2025-04-09 20:26:05,785 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\float.py', reloading
+2025-04-09 20:26:05,797 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\grid.py', reloading
+2025-04-09 20:26:05,813 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\gridstack.py', reloading
+2025-04-09 20:26:05,840 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\spacer.py', reloading
+2025-04-09 20:26:05,863 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\swipe.py', reloading
+2025-04-09 20:26:05,880 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\layout\\tabs.py', reloading
+2025-04-09 20:26:05,892 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\pane\\__init__.py', reloading
+2025-04-09 20:26:05,909 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\pane\\base.py', reloading
+2025-04-09 20:26:05,927 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\param.py', reloading
+2025-04-09 20:26:05,945 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\template\\__init__.py', reloading
+2025-04-09 20:26:05,966 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\template\\base.py', reloading
+2025-04-09 20:26:05,981 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\widgets\\__init__.py', reloading
+2025-04-09 20:26:05,996 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\panel\\widgets\\widget.py', reloading
+2025-04-09 20:26:06,018 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\param\\parameterized.py', reloading
+2025-04-09 20:26:06,043 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\param\\_utils.py', reloading
+2025-04-09 20:26:06,068 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\param\\parameters.py', reloading
+2025-04-09 20:26:06,083 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\parsel\\__init__.py', reloading
+2025-04-09 20:26:06,106 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\parsel\\selector.py', reloading
+2025-04-09 20:26:06,128 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\parsel\\csstranslator.py', reloading
+2025-04-09 20:26:06,145 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\parso\\__init__.py', reloading
+2025-04-09 20:26:06,153 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\partd\\__init__.py', reloading
+2025-04-09 20:26:06,166 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pathspec\\__init__.py', reloading
+2025-04-09 20:26:06,179 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pathspec\\gitignore.py', reloading
+2025-04-09 20:26:06,192 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pathspec\\pathspec.py', reloading
+2025-04-09 20:26:06,202 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pathspec\\pattern.py', reloading
+2025-04-09 20:26:06,216 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pathspec\\util.py', reloading
+2025-04-09 20:26:06,234 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pathspec\\_meta.py', reloading
+2025-04-09 20:26:06,246 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\patsy\\__init__.py', reloading
+2025-04-09 20:26:06,264 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\PIL\\__init__.py', reloading
+2025-04-09 20:26:06,281 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pip\\__init__.py', reloading
+2025-04-09 20:26:06,293 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pkce\\__init__.py', reloading
+2025-04-09 20:26:06,487 -  * Restarting with watchdog (windowsapi)
+2025-04-09 20:26:07,568 -  * Debugger is active!
+2025-04-09 20:26:07,571 -  * Debugger PIN: 104-664-092
+2025-04-09 20:26:07,592 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pylsp\\_version.py', reloading
+2025-04-09 20:26:07,601 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pylsp_jsonrpc\\__init__.py', reloading
+2025-04-09 20:26:07,612 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pylsp_jsonrpc\\_version.py', reloading
+2025-04-09 20:26:07,620 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyls_spyder\\__init__.py', reloading
+2025-04-09 20:26:07,631 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyparsing\\__init__.py', reloading
+2025-04-09 20:26:07,647 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyparsing\\util.py', reloading
+2025-04-09 20:26:07,662 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyparsing\\exceptions.py', reloading
+2025-04-09 20:26:07,674 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyparsing\\actions.py', reloading
+2025-04-09 20:26:07,689 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyparsing\\results.py', reloading
+2025-04-09 20:26:07,703 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyparsing\\core.py', reloading
+2025-04-09 20:26:07,734 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyparsing\\helpers.py', reloading
+2025-04-09 20:26:07,754 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyparsing\\unicode.py', reloading
+2025-04-09 20:26:07,876 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\PyQt5\\__init__.py', reloading
+2025-04-09 20:26:07,892 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pytest\\__init__.py', reloading
+2025-04-09 20:26:07,929 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\__init__.py', reloading
+2025-04-09 20:26:07,938 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\_version.py', reloading
+2025-04-09 20:26:07,948 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\_code\\__init__.py', reloading
+2025-04-09 20:26:07,962 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\_code\\code.py', reloading
+2025-04-09 20:26:07,984 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\assertion\\__init__.py', reloading
+2025-04-09 20:26:08,003 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+2025-04-09 20:26:08,019 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+2025-04-09 20:26:08,036 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\config\\__init__.py', reloading
+2025-04-09 20:26:08,054 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\config\\exceptions.py', reloading
+2025-04-09 20:26:08,067 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\config\\argparsing.py', reloading
+2025-04-09 20:26:08,081 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+2025-04-09 20:26:08,099 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\fixtures.py', reloading
+2025-04-09 20:26:08,117 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\freeze_support.py', reloading
+2025-04-09 20:26:08,134 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\legacypath.py', reloading
+2025-04-09 20:26:08,154 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\logging.py', reloading
+2025-04-09 20:26:08,170 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\main.py', reloading
+2025-04-09 20:26:08,186 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\mark\\__init__.py', reloading
+2025-04-09 20:26:08,199 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\mark\\structures.py', reloading
+2025-04-09 20:26:08,214 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\monkeypatch.py', reloading
+2025-04-09 20:26:08,227 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\nodes.py', reloading
+2025-04-09 20:26:08,244 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\outcomes.py', reloading
+2025-04-09 20:26:08,260 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\pytester.py', reloading
+2025-04-09 20:26:08,280 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\python.py', reloading
+2025-04-09 20:26:08,304 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\python_api.py', reloading
+2025-04-09 20:26:08,321 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\recwarn.py', reloading
+2025-04-09 20:26:08,336 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\reports.py', reloading
+2025-04-09 20:26:08,350 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\runner.py', reloading
+2025-04-09 20:26:08,366 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\stash.py', reloading
+2025-04-09 20:26:08,379 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\terminal.py', reloading
+2025-04-09 20:26:08,397 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\tmpdir.py', reloading
+2025-04-09 20:26:08,412 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\_pytest\\warning_types.py', reloading
+2025-04-09 20:26:08,422 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pytoolconfig\\__init__.py', reloading
+2025-04-09 20:26:08,440 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pytoolconfig\\fields.py', reloading
+2025-04-09 20:26:08,454 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pytoolconfig\\pytoolconfig.py', reloading
+2025-04-09 20:26:08,473 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pytoolconfig\\types.py', reloading
+2025-04-09 20:26:08,503 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pyviz_comms\\__init__.py', reloading
+2025-04-09 20:26:08,521 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pywt\\__init__.py', reloading
+2025-04-09 20:26:08,546 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pywt\\_functions.py', reloading
+2025-04-09 20:26:08,568 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\pywt\\_multilevel.py', reloading
+2025-04-09 20:26:08,712 -  * Restarting with watchdog (windowsapi)
+2025-04-09 20:26:09,867 -  * Debugger is active!
+2025-04-09 20:26:09,870 -  * Debugger PIN: 104-664-092
+2025-04-09 20:26:09,889 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_rgi.py', reloading
+2025-04-09 20:26:09,907 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\io\\__init__.py', reloading
+2025-04-09 20:26:09,927 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\__init__.py', reloading
+2025-04-09 20:26:09,941 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_misc.py', reloading
+2025-04-09 20:26:09,977 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_basic.py', reloading
+2025-04-09 20:26:09,997 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp.py', reloading
+2025-04-09 20:26:10,012 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_lu.py', reloading
+2025-04-09 20:26:10,030 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_ldl.py', reloading
+2025-04-09 20:26:10,044 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_cholesky.py', reloading
+2025-04-09 20:26:10,057 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_qr.py', reloading
+2025-04-09 20:26:10,071 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_qz.py', reloading
+2025-04-09 20:26:10,085 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_svd.py', reloading
+2025-04-09 20:26:10,098 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_schur.py', reloading
+2025-04-09 20:26:10,110 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_polar.py', reloading
+2025-04-09 20:26:10,124 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_matfuncs.py', reloading
+2025-04-09 20:26:10,139 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\blas.py', reloading
+2025-04-09 20:26:10,162 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\lapack.py', reloading
+2025-04-09 20:26:10,183 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_special_matrices.py', reloading
+2025-04-09 20:26:10,204 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_solvers.py', reloading
+2025-04-09 20:26:10,220 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_procrustes.py', reloading
+2025-04-09 20:26:10,233 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_sketches.py', reloading
+2025-04-09 20:26:10,251 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\linalg\\_decomp_cossin.py', reloading
+2025-04-09 20:26:10,266 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\misc\\__init__.py', reloading
+2025-04-09 20:26:10,287 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\misc\\_common.py', reloading
+2025-04-09 20:26:10,301 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\__init__.py', reloading
+2025-04-09 20:26:10,317 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_filters.py', reloading
+2025-04-09 20:26:10,337 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_fourier.py', reloading
+2025-04-09 20:26:10,353 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_interpolation.py', reloading
+2025-04-09 20:26:10,371 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_measurements.py', reloading
+2025-04-09 20:26:10,395 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_morphology.py', reloading
+2025-04-09 20:26:10,418 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\odr\\__init__.py', reloading
+2025-04-09 20:26:10,437 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\odr\\_odrpack.py', reloading
+2025-04-09 20:26:10,464 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\odr\\_models.py', reloading
+2025-04-09 20:26:10,483 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\__init__.py', reloading
+2025-04-09 20:26:10,513 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_optimize.py', reloading
+2025-04-09 20:26:10,536 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_minimize.py', reloading
+2025-04-09 20:26:10,561 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_root.py', reloading
+2025-04-09 20:26:10,574 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_root_scalar.py', reloading
+2025-04-09 20:26:10,599 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_minpack_py.py', reloading
+2025-04-09 20:26:10,620 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_zeros_py.py', reloading
+2025-04-09 20:26:10,637 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_nonlin.py', reloading
+2025-04-09 20:26:10,652 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\__init__.py', reloading
+2025-04-09 20:26:10,674 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_waveforms.py', reloading
+2025-04-09 20:26:10,691 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_bsplines.py', reloading
+2025-04-09 20:26:10,706 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_filter_design.py', reloading
+2025-04-09 20:26:10,731 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_fir_filter_design.py', reloading
+2025-04-09 20:26:10,769 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_ltisys.py', reloading
+2025-04-09 20:26:10,793 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_lti_conversion.py', reloading
+2025-04-09 20:26:10,821 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_signaltools.py', reloading
+2025-04-09 20:26:10,854 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_spectral_py.py', reloading
+2025-04-09 20:26:10,880 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_short_time_fft.py', reloading
+2025-04-09 20:26:11,004 -  * Restarting with watchdog (windowsapi)
+2025-04-09 20:26:12,102 -  * Debugger is active!
+2025-04-09 20:26:12,104 -  * Debugger PIN: 104-664-092
+2025-04-09 20:26:12,129 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\semver\\version.py', reloading
+2025-04-09 20:26:12,142 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\semver\\__about__.py', reloading
+2025-04-09 20:26:12,154 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\service_identity\\__init__.py', reloading
+2025-04-09 20:26:12,167 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\service_identity\\exceptions.py', reloading
+2025-04-09 20:26:12,189 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sipbuild\\__init__.py', reloading
+2025-04-09 20:26:12,205 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\slugify\\__init__.py', reloading
+2025-04-09 20:26:12,218 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\smart_open\\__init__.py', reloading
+2025-04-09 20:26:12,234 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\smart_open\\smart_open_lib.py', reloading
+2025-04-09 20:26:12,249 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\smart_open\\compression.py', reloading
+2025-04-09 20:26:12,260 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\smmap\\__init__.py', reloading
+2025-04-09 20:26:12,267 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sniffio\\__init__.py', reloading
+2025-04-09 20:26:12,279 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sniffio\\_impl.py', reloading
+2025-04-09 20:26:12,289 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\snowballstemmer\\__init__.py', reloading
+2025-04-09 20:26:12,588 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sortedcontainers\\__init__.py', reloading
+2025-04-09 20:26:12,605 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sortedcontainers\\sortedlist.py', reloading
+2025-04-09 20:26:12,624 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sortedcontainers\\sortedset.py', reloading
+2025-04-09 20:26:12,638 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sortedcontainers\\sorteddict.py', reloading
+2025-04-09 20:26:12,652 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\soupsieve\\__init__.py', reloading
+2025-04-09 20:26:12,669 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\soupsieve\\util.py', reloading
+2025-04-09 20:26:12,681 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sphinx\\__init__.py', reloading
+2025-04-09 20:26:12,699 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\spyder\\__init__.py', reloading
+2025-04-09 20:26:12,710 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\spyder_kernels\\__init__.py', reloading
+2025-04-09 20:26:12,720 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\__init__.py', reloading
+2025-04-09 20:26:12,739 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\__init__.py', reloading
+2025-04-09 20:26:12,762 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\interfaces.py', reloading
+2025-04-09 20:26:12,784 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\row.py', reloading
+2025-04-09 20:26:12,798 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\_py_row.py', reloading
+2025-04-09 20:26:12,814 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\result.py', reloading
+2025-04-09 20:26:12,842 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\compiler.py', reloading
+2025-04-09 20:26:12,880 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\base.py', reloading
+2025-04-09 20:26:12,900 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\create.py', reloading
+2025-04-09 20:26:12,916 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\mock.py', reloading
+2025-04-09 20:26:12,931 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\cursor.py', reloading
+2025-04-09 20:26:12,961 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\reflection.py', reloading
+2025-04-09 20:26:12,980 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\engine\\url.py', reloading
+2025-04-09 20:26:12,999 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\inspection.py', reloading
+2025-04-09 20:26:13,011 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\pool\\__init__.py', reloading
+2025-04-09 20:26:13,024 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\pool\\impl.py', reloading
+2025-04-09 20:26:13,040 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\pool\\base.py', reloading
+2025-04-09 20:26:13,055 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\schema.py', reloading
+2025-04-09 20:26:13,073 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\ddl.py', reloading
+2025-04-09 20:26:13,110 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\schema.py', reloading
+2025-04-09 20:26:13,238 -  * Restarting with watchdog (windowsapi)
+2025-04-09 20:26:14,267 -  * Debugger is active!
+2025-04-09 20:26:14,269 -  * Debugger PIN: 104-664-092
+2025-04-09 20:26:14,284 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tenacity\\before_sleep.py', reloading
+2025-04-09 20:26:14,295 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tenacity\\_asyncio.py', reloading
+2025-04-09 20:26:14,310 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\terminado\\__init__.py', reloading
+2025-04-09 20:26:14,318 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\textdistance\\__init__.py', reloading
+2025-04-09 20:26:14,329 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\text_unidecode\\__init__.py', reloading
+2025-04-09 20:26:14,344 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\three_merge\\__init__.py', reloading
+2025-04-09 20:26:14,351 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tifffile\\__init__.py', reloading
+2025-04-09 20:26:14,397 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tifffile\\tifffile.py', reloading
+2025-04-09 20:26:14,467 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tinycss2\\__init__.py', reloading
+2025-04-09 20:26:14,476 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tldextract\\__init__.py', reloading
+2025-04-09 20:26:14,501 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tldextract\\tldextract.py', reloading
+2025-04-09 20:26:14,516 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tlz\\__init__.py', reloading
+2025-04-09 20:26:14,527 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tomli\\__init__.py', reloading
+2025-04-09 20:26:14,545 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tomli\\_parser.py', reloading
+2025-04-09 20:26:14,560 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tomlkit\\__init__.py', reloading
+2025-04-09 20:26:14,572 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tomlkit\\api.py', reloading
+2025-04-09 20:26:14,585 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tomlkit\\items.py', reloading
+2025-04-09 20:26:14,604 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\toolz\\__init__.py', reloading
+2025-04-09 20:26:14,615 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tornado\\__init__.py', reloading
+2025-04-09 20:26:14,625 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\traitlets\\__init__.py', reloading
+2025-04-09 20:26:14,644 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\traitlets\\traitlets.py', reloading
+2025-04-09 20:26:14,664 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\traitlets\\_version.py', reloading
+2025-04-09 20:26:14,674 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\traitlets\\utils\\bunch.py', reloading
+2025-04-09 20:26:14,686 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\traitlets\\utils\\decorators.py', reloading
+2025-04-09 20:26:14,698 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\traitlets\\utils\\importstring.py', reloading
+2025-04-09 20:26:14,708 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\truststore\\__init__.py', reloading
+2025-04-09 20:26:14,721 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\truststore\\_api.py', reloading
+2025-04-09 20:26:14,735 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\twisted\\__init__.py', reloading
+2025-04-09 20:26:14,748 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tzdata\\__init__.py', reloading
+2025-04-09 20:26:14,755 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tzlocal\\__init__.py', reloading
+2025-04-09 20:26:14,768 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tzlocal\\win32.py', reloading
+2025-04-09 20:26:14,785 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\tzlocal\\utils.py', reloading
+2025-04-09 20:26:14,799 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\uc_micro\\__init__.py', reloading
+2025-04-09 20:26:14,811 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\unidecode\\__init__.py', reloading
+2025-04-09 20:26:14,826 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\__init__.py', reloading
+2025-04-09 20:26:14,846 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\_collections.py', reloading
+2025-04-09 20:26:14,863 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\connectionpool.py', reloading
+2025-04-09 20:26:14,876 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\filepost.py', reloading
+2025-04-09 20:26:14,891 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\poolmanager.py', reloading
+2025-04-09 20:26:14,906 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\response.py', reloading
+2025-04-09 20:26:14,925 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\util\\request.py', reloading
+2025-04-09 20:26:14,939 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\util\\retry.py', reloading
+2025-04-09 20:26:14,954 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\urllib3\\util\\timeout.py', reloading
+2025-04-09 20:26:14,966 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\virtualenv\\__init__.py', reloading
+2025-04-09 20:26:14,981 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\virtualenv\\run\\__init__.py', reloading
+2025-04-09 20:26:14,998 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\virtualenv\\version.py', reloading
+2025-04-09 20:26:15,007 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\w3lib\\__init__.py', reloading
+2025-04-09 20:26:15,017 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\watchdog\\__init__.py', reloading
+2025-04-09 20:26:15,028 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\wcwidth\\__init__.py', reloading
+2025-04-09 20:26:15,042 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\wcwidth\\wcwidth.py', reloading
+2025-04-09 20:26:15,053 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\wcwidth\\unicode_versions.py', reloading
+2025-04-09 20:26:15,065 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\webencodings\\__init__.py', reloading
+2025-04-09 20:26:15,075 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\websocket\\__init__.py', reloading
+2025-04-09 20:26:15,090 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\websocket\\_abnf.py', reloading
+2025-04-09 20:26:15,105 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\websocket\\_core.py', reloading
+2025-04-09 20:26:15,118 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\websocket\\_exceptions.py', reloading
+2025-04-09 20:26:15,129 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\websocket\\_logging.py', reloading
+2025-04-09 20:26:15,141 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\websocket\\_socket.py', reloading
+2025-04-09 20:26:15,154 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\websocket\\_app.py', reloading
+2025-04-09 20:26:15,166 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+2025-04-09 20:26:15,180 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2025-04-09 20:26:15,199 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\werkzeug\\test.py', reloading
+2025-04-09 20:26:15,224 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\wheel\\__init__.py', reloading
+2025-04-09 20:26:15,235 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\widgetsnbextension\\__init__.py', reloading
+2025-04-09 20:26:15,246 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\win32ctypes\\__init__.py', reloading
+2025-04-09 20:26:15,253 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\winpty\\__init__.py', reloading
+2025-04-09 20:26:15,263 -  * Detected change in 'C:\\Users\\Hrishikesh\\anaconda3\\Lib\\site-packages\\wrapt\\__init__.py', reloading
+2025-04-09 20:26:15,394 -  * Restarting with watchdog (windowsapi)
+2025-04-09 20:26:16,426 -  * Debugger is active!
+2025-04-09 20:26:16,428 -  * Debugger PIN: 104-664-092
+2025-04-09 20:26:29,841 - 127.0.0.1 - - [09/Apr/2025 20:26:29] "GET /socket.io/?EIO=4&transport=polling&t=POR3NYC HTTP/1.1" 200 -
+2025-04-09 20:26:29,855 - 127.0.0.1 - - [09/Apr/2025 20:26:29] "POST /socket.io/?EIO=4&transport=polling&t=POR3NYQ&sid=gMzjEf1t-iE4AvCmAAAA HTTP/1.1" 200 -
+2025-04-09 20:26:29,857 - 127.0.0.1 - - [09/Apr/2025 20:26:29] "GET /socket.io/?EIO=4&transport=polling&t=POR3NYU&sid=gMzjEf1t-iE4AvCmAAAA HTTP/1.1" 200 -
+2025-04-09 20:26:29,883 - 127.0.0.1 - - [09/Apr/2025 20:26:29] "GET /socket.io/?EIO=4&transport=polling&t=POR3NYc&sid=gMzjEf1t-iE4AvCmAAAA HTTP/1.1" 200 -
+2025-04-09 20:26:29,895 - 127.0.0.1 - - [09/Apr/2025 20:26:29] "GET /socket.io/?EIO=4&transport=polling&t=POR3NY-&sid=gMzjEf1t-iE4AvCmAAAA HTTP/1.1" 200 -
+2025-04-09 20:26:35,946 - 127.0.0.1 - - [09/Apr/2025 20:26:35] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:27:07,909 - \u274c Manually killed: msedge.exe (PID: 4760)
+2025-04-09 20:27:07,910 - 127.0.0.1 - - [09/Apr/2025 20:27:07] "POST /kill/4760 HTTP/1.1" 200 -
+2025-04-09 20:27:11,699 - 127.0.0.1 - - [09/Apr/2025 20:27:11] "[31m[1mPOST /kill/14148 HTTP/1.1[0m" 400 -
+2025-04-09 20:27:13,805 - 127.0.0.1 - - [09/Apr/2025 20:27:13] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:27:15,252 - \u274c Manually killed: python.exe (PID: 7816)
+2025-04-09 20:27:15,252 - 127.0.0.1 - - [09/Apr/2025 20:27:15] "POST /kill/7816 HTTP/1.1" 200 -
+2025-04-09 20:27:19,209 - 127.0.0.1 - - [09/Apr/2025 20:27:19] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:27:27,480 - 127.0.0.1 - - [09/Apr/2025 20:27:27] "GET /socket.io/?EIO=4&transport=websocket&sid=gMzjEf1t-iE4AvCmAAAA HTTP/1.1" 200 -
+2025-04-09 20:31:38,287 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 20:31:38,288 - [33mPress CTRL+C to quit[0m
+2025-04-09 20:31:43,172 - 127.0.0.1 - - [09/Apr/2025 20:31:43] "GET /socket.io/?EIO=4&transport=polling&t=POR4a20 HTTP/1.1" 200 -
+2025-04-09 20:31:43,239 - 127.0.0.1 - - [09/Apr/2025 20:31:43] "POST /socket.io/?EIO=4&transport=polling&t=POR4a32&sid=dy7j9E0eD63m6p0JAAAA HTTP/1.1" 200 -
+2025-04-09 20:31:43,242 - 127.0.0.1 - - [09/Apr/2025 20:31:43] "GET /socket.io/?EIO=4&transport=polling&t=POR4a35&sid=dy7j9E0eD63m6p0JAAAA HTTP/1.1" 200 -
+2025-04-09 20:32:24,394 - 127.0.0.1 - - [09/Apr/2025 20:32:24] "GET /socket.io/?EIO=4&transport=websocket&sid=dy7j9E0eD63m6p0JAAAA HTTP/1.1" 200 -
+2025-04-09 20:32:24,423 - 127.0.0.1 - - [09/Apr/2025 20:32:24] "GET /socket.io/?EIO=4&transport=polling&t=POR4k6a HTTP/1.1" 200 -
+2025-04-09 20:32:24,432 - 127.0.0.1 - - [09/Apr/2025 20:32:24] "POST /socket.io/?EIO=4&transport=polling&t=POR4k6j&sid=QyB6ClXz8g0bO0dfAAAC HTTP/1.1" 200 -
+2025-04-09 20:32:24,432 - 127.0.0.1 - - [09/Apr/2025 20:32:24] "GET /socket.io/?EIO=4&transport=polling&t=POR4k6k&sid=QyB6ClXz8g0bO0dfAAAC HTTP/1.1" 200 -
+2025-04-09 20:32:24,439 - 127.0.0.1 - - [09/Apr/2025 20:32:24] "GET /socket.io/?EIO=4&transport=polling&t=POR4k6r&sid=QyB6ClXz8g0bO0dfAAAC HTTP/1.1" 200 -
+2025-04-09 20:33:49,869 - 127.0.0.1 - - [09/Apr/2025 20:33:49] "GET /socket.io/?EIO=4&transport=websocket&sid=QyB6ClXz8g0bO0dfAAAC HTTP/1.1" 200 -
+2025-04-09 20:33:49,890 - 127.0.0.1 - - [09/Apr/2025 20:33:49] "GET /socket.io/?EIO=4&transport=polling&t=POR52zy HTTP/1.1" 200 -
+2025-04-09 20:33:49,898 - 127.0.0.1 - - [09/Apr/2025 20:33:49] "POST /socket.io/?EIO=4&transport=polling&t=POR52-5&sid=SZJZF62cWQspeUzLAAAE HTTP/1.1" 200 -
+2025-04-09 20:33:49,900 - 127.0.0.1 - - [09/Apr/2025 20:33:49] "GET /socket.io/?EIO=4&transport=polling&t=POR52-8&sid=SZJZF62cWQspeUzLAAAE HTTP/1.1" 200 -
+2025-04-09 20:33:49,919 - 127.0.0.1 - - [09/Apr/2025 20:33:49] "GET /socket.io/?EIO=4&transport=polling&t=POR52-I&sid=SZJZF62cWQspeUzLAAAE HTTP/1.1" 200 -
+2025-04-09 20:34:16,972 - 127.0.0.1 - - [09/Apr/2025 20:34:16] "GET /socket.io/?EIO=4&transport=websocket&sid=SZJZF62cWQspeUzLAAAE HTTP/1.1" 200 -
+2025-04-09 20:34:16,988 - 127.0.0.1 - - [09/Apr/2025 20:34:16] "GET /socket.io/?EIO=4&transport=polling&t=POR59bP HTTP/1.1" 200 -
+2025-04-09 20:34:16,994 - 127.0.0.1 - - [09/Apr/2025 20:34:16] "POST /socket.io/?EIO=4&transport=polling&t=POR59bV&sid=5hf0FVuiqXrIfi4JAAAG HTTP/1.1" 200 -
+2025-04-09 20:34:16,995 - 127.0.0.1 - - [09/Apr/2025 20:34:16] "GET /socket.io/?EIO=4&transport=polling&t=POR59bW&sid=5hf0FVuiqXrIfi4JAAAG HTTP/1.1" 200 -
+2025-04-09 20:34:17,004 - 127.0.0.1 - - [09/Apr/2025 20:34:17] "GET /socket.io/?EIO=4&transport=polling&t=POR59be&sid=5hf0FVuiqXrIfi4JAAAG HTTP/1.1" 200 -
+2025-04-09 20:34:59,796 - 127.0.0.1 - - [09/Apr/2025 20:34:59] "GET /socket.io/?EIO=4&transport=websocket&sid=5hf0FVuiqXrIfi4JAAAG HTTP/1.1" 200 -
+2025-04-09 20:34:59,807 - 127.0.0.1 - - [09/Apr/2025 20:34:59] "GET /socket.io/?EIO=4&transport=polling&t=POR5K2S HTTP/1.1" 200 -
+2025-04-09 20:34:59,812 - 127.0.0.1 - - [09/Apr/2025 20:34:59] "POST /socket.io/?EIO=4&transport=polling&t=POR5K2X&sid=shPTsW6jiN-YVk8bAAAI HTTP/1.1" 200 -
+2025-04-09 20:34:59,814 - 127.0.0.1 - - [09/Apr/2025 20:34:59] "GET /socket.io/?EIO=4&transport=polling&t=POR5K2Y&sid=shPTsW6jiN-YVk8bAAAI HTTP/1.1" 200 -
+2025-04-09 20:34:59,826 - 127.0.0.1 - - [09/Apr/2025 20:34:59] "GET /socket.io/?EIO=4&transport=polling&t=POR5K2l&sid=shPTsW6jiN-YVk8bAAAI HTTP/1.1" 200 -
+2025-04-09 20:35:03,341 - 127.0.0.1 - - [09/Apr/2025 20:35:03] "GET /socket.io/?EIO=4&transport=websocket&sid=shPTsW6jiN-YVk8bAAAI HTTP/1.1" 200 -
+2025-04-09 20:35:12,896 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 20:35:12,896 - [33mPress CTRL+C to quit[0m
+2025-04-09 20:35:16,781 - 127.0.0.1 - - [09/Apr/2025 20:35:16] "GET /socket.io/?EIO=4&transport=polling&t=POR5OBm HTTP/1.1" 200 -
+2025-04-09 20:35:16,836 - 127.0.0.1 - - [09/Apr/2025 20:35:16] "POST /socket.io/?EIO=4&transport=polling&t=POR5OCZ&sid=O2xSOrQsuSlYbdjwAAAA HTTP/1.1" 200 -
+2025-04-09 20:35:16,836 - 127.0.0.1 - - [09/Apr/2025 20:35:16] "GET /socket.io/?EIO=4&transport=polling&t=POR5OCa&sid=O2xSOrQsuSlYbdjwAAAA HTTP/1.1" 200 -
+2025-04-09 20:35:26,985 - \u274c Manually killed: msedge.exe (PID: 16968)
+2025-04-09 20:35:26,999 - 127.0.0.1 - - [09/Apr/2025 20:35:26] "POST /kill/16968 HTTP/1.1" 200 -
+2025-04-09 20:35:29,549 - \u274c Manually killed: msedge.exe (PID: 14924)
+2025-04-09 20:35:29,551 - 127.0.0.1 - - [09/Apr/2025 20:35:29] "POST /kill/14924 HTTP/1.1" 200 -
+2025-04-09 20:35:40,302 - \u274c Manually killed: msedge.exe (PID: 18244)
+2025-04-09 20:35:40,302 - 127.0.0.1 - - [09/Apr/2025 20:35:40] "POST /kill/18244 HTTP/1.1" 200 -
+2025-04-09 20:35:41,327 - \u274c Manually killed: msedge.exe (PID: 17816)
+2025-04-09 20:35:41,327 - 127.0.0.1 - - [09/Apr/2025 20:35:41] "POST /kill/17816 HTTP/1.1" 200 -
+2025-04-09 20:35:42,450 - \u274c Manually killed: msedge.exe (PID: 16224)
+2025-04-09 20:35:42,450 - 127.0.0.1 - - [09/Apr/2025 20:35:42] "POST /kill/16224 HTTP/1.1" 200 -
+2025-04-09 20:35:43,784 - \u274c Manually killed: msedge.exe (PID: 12816)
+2025-04-09 20:35:43,784 - 127.0.0.1 - - [09/Apr/2025 20:35:43] "POST /kill/12816 HTTP/1.1" 200 -
+2025-04-09 20:35:43,784 - 127.0.0.1 - - [09/Apr/2025 20:35:43] "GET /socket.io/?EIO=4&transport=websocket&sid=O2xSOrQsuSlYbdjwAAAA HTTP/1.1" 200 -
+2025-04-09 20:35:51,726 - 127.0.0.1 - - [09/Apr/2025 20:35:51] "GET /socket.io/?EIO=4&transport=polling&t=POR5Wjj HTTP/1.1" 200 -
+2025-04-09 20:35:51,771 - 127.0.0.1 - - [09/Apr/2025 20:35:51] "POST /socket.io/?EIO=4&transport=polling&t=POR5WkR&sid=PNGyriuaswTq_RTFAAAC HTTP/1.1" 200 -
+2025-04-09 20:35:51,780 - 127.0.0.1 - - [09/Apr/2025 20:35:51] "GET /socket.io/?EIO=4&transport=polling&t=POR5WkS&sid=PNGyriuaswTq_RTFAAAC HTTP/1.1" 200 -
+2025-04-09 20:35:51,804 - 127.0.0.1 - - [09/Apr/2025 20:35:51] "GET /socket.io/?EIO=4&transport=polling&t=POR5Wkc&sid=PNGyriuaswTq_RTFAAAC HTTP/1.1" 200 -
+2025-04-09 20:42:57,773 - 127.0.0.1 - - [09/Apr/2025 20:42:57] "GET /socket.io/?EIO=4&transport=websocket&sid=PNGyriuaswTq_RTFAAAC HTTP/1.1" 200 -
+2025-04-09 20:43:53,876 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 20:43:53,877 - [33mPress CTRL+C to quit[0m
+2025-04-09 20:44:05,644 - 127.0.0.1 - - [09/Apr/2025 20:44:05] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:44:10,357 - \u274c Manually killed: msedge.exe (PID: 2580)
+2025-04-09 20:44:10,357 - 127.0.0.1 - - [09/Apr/2025 20:44:10] "POST /kill/2580 HTTP/1.1" 200 -
+2025-04-09 20:44:13,642 - 127.0.0.1 - - [09/Apr/2025 20:44:13] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:44:17,456 - \u274c Manually killed: msedge.exe (PID: 3756)
+2025-04-09 20:44:17,456 - 127.0.0.1 - - [09/Apr/2025 20:44:17] "POST /kill/3756 HTTP/1.1" 200 -
+2025-04-09 20:44:21,743 - 127.0.0.1 - - [09/Apr/2025 20:44:21] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:44:29,379 - 127.0.0.1 - - [09/Apr/2025 20:44:29] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:44:32,774 - \u274c Manually killed: msedge.exe (PID: 16784)
+2025-04-09 20:44:32,774 - 127.0.0.1 - - [09/Apr/2025 20:44:32] "POST /kill/16784 HTTP/1.1" 200 -
+2025-04-09 20:44:37,471 - 127.0.0.1 - - [09/Apr/2025 20:44:37] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:50:34,522 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 20:50:34,522 - [33mPress CTRL+C to quit[0m
+2025-04-09 20:51:06,675 - 127.0.0.1 - - [09/Apr/2025 20:51:06] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:51:19,471 - 127.0.0.1 - - [09/Apr/2025 20:51:19] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:51:26,461 - 127.0.0.1 - - [09/Apr/2025 20:51:26] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:51:33,535 - 127.0.0.1 - - [09/Apr/2025 20:51:33] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:51:41,018 - 127.0.0.1 - - [09/Apr/2025 20:51:41] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:51:47,469 - 127.0.0.1 - - [09/Apr/2025 20:51:47] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:51:49,364 - 127.0.0.1 - - [09/Apr/2025 20:51:49] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:51:58,141 - 127.0.0.1 - - [09/Apr/2025 20:51:58] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:51:58,196 - 127.0.0.1 - - [09/Apr/2025 20:51:58] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:05,512 - 127.0.0.1 - - [09/Apr/2025 20:52:05] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:11,630 - 127.0.0.1 - - [09/Apr/2025 20:52:11] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:13,249 - 127.0.0.1 - - [09/Apr/2025 20:52:13] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:20,099 - 127.0.0.1 - - [09/Apr/2025 20:52:20] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:26,679 - 127.0.0.1 - - [09/Apr/2025 20:52:26] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:27,863 - 127.0.0.1 - - [09/Apr/2025 20:52:27] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:34,895 - 127.0.0.1 - - [09/Apr/2025 20:52:34] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:41,004 - \u274c Manually killed: Code.exe (PID: 18004)
+2025-04-09 20:52:41,004 - 127.0.0.1 - - [09/Apr/2025 20:52:41] "POST /kill/18004 HTTP/1.1" 200 -
+2025-04-09 20:52:41,699 - 127.0.0.1 - - [09/Apr/2025 20:52:41] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:42,259 - 127.0.0.1 - - [09/Apr/2025 20:52:42] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:49,561 - 127.0.0.1 - - [09/Apr/2025 20:52:49] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:57,751 - 127.0.0.1 - - [09/Apr/2025 20:52:57] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:52:57,766 - 127.0.0.1 - - [09/Apr/2025 20:52:57] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:53:05,578 - 127.0.0.1 - - [09/Apr/2025 20:53:05] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:53:11,200 - 127.0.0.1 - - [09/Apr/2025 20:53:11] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:53:13,135 - 127.0.0.1 - - [09/Apr/2025 20:53:13] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:53:14,225 - \u274c Manually killed: msedgewebview2.exe (PID: 13128)
+2025-04-09 20:53:14,225 - 127.0.0.1 - - [09/Apr/2025 20:53:14] "POST /kill/13128 HTTP/1.1" 200 -
+2025-04-09 20:53:14,647 - 127.0.0.1 - - [09/Apr/2025 20:53:14] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:53:23,864 - 127.0.0.1 - - [09/Apr/2025 20:53:23] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:53:24,401 - 127.0.0.1 - - [09/Apr/2025 20:53:24] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:53:40,509 - 127.0.0.1 - - [09/Apr/2025 20:53:40] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:53:47,092 - \u274c Manually killed: msedge.exe (PID: 13000)
+2025-04-09 20:53:47,094 - 127.0.0.1 - - [09/Apr/2025 20:53:47] "POST /kill/13000 HTTP/1.1" 200 -
+2025-04-09 20:53:55,720 - 127.0.0.1 - - [09/Apr/2025 20:53:55] "GET /processes HTTP/1.1" 200 -
+2025-04-09 20:54:10,009 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 20:54:10,009 - [33mPress CTRL+C to quit[0m
+2025-04-09 21:38:49,317 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 21:38:49,318 - [33mPress CTRL+C to quit[0m
+2025-04-09 21:49:47,294 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 21:49:47,299 - [33mPress CTRL+C to quit[0m
+2025-04-09 22:14:03,210 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 22:14:03,215 - [33mPress CTRL+C to quit[0m
+2025-04-09 22:14:12,939 - 127.0.0.1 - - [09/Apr/2025 22:14:12] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:14:23,948 - 127.0.0.1 - - [09/Apr/2025 22:14:23] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:14:37,011 - 127.0.0.1 - - [09/Apr/2025 22:14:37] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:14:53,602 - 127.0.0.1 - - [09/Apr/2025 22:14:53] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:14:53,612 - 127.0.0.1 - - [09/Apr/2025 22:14:53] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:15:03,076 - 127.0.0.1 - - [09/Apr/2025 22:15:03] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:15:09,633 - 127.0.0.1 - - [09/Apr/2025 22:15:09] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:15:09,948 - 127.0.0.1 - - [09/Apr/2025 22:15:09] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:15:19,375 - 127.0.0.1 - - [09/Apr/2025 22:15:19] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:15:21,707 - 127.0.0.1 - - [09/Apr/2025 22:15:21] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:18:32,190 - 127.0.0.1 - - [09/Apr/2025 22:18:32] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:18:47,650 - 127.0.0.1 - - [09/Apr/2025 22:18:47] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:19:03,031 - 127.0.0.1 - - [09/Apr/2025 22:19:03] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:19:08,319 - 127.0.0.1 - - [09/Apr/2025 22:19:08] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:19:12,042 - 127.0.0.1 - - [09/Apr/2025 22:19:12] "GET /processes HTTP/1.1" 200 -
+2025-04-09 22:55:33,702 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 22:55:33,702 - [33mPress CTRL+C to quit[0m
+2025-04-09 23:24:01,785 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-09 23:24:01,785 - [33mPress CTRL+C to quit[0m
+2025-04-09 23:24:35,920 - 127.0.0.1 - - [09/Apr/2025 23:24:35] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:24:54,050 - 127.0.0.1 - - [09/Apr/2025 23:24:54] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:09,632 - 127.0.0.1 - - [09/Apr/2025 23:25:09] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:16,902 - 127.0.0.1 - - [09/Apr/2025 23:25:16] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:17,029 - 127.0.0.1 - - [09/Apr/2025 23:25:17] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:24,897 - 127.0.0.1 - - [09/Apr/2025 23:25:24] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:32,701 - 127.0.0.1 - - [09/Apr/2025 23:25:32] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:37,084 - 127.0.0.1 - - [09/Apr/2025 23:25:37] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:39,954 - 127.0.0.1 - - [09/Apr/2025 23:25:39] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:47,212 - 127.0.0.1 - - [09/Apr/2025 23:25:47] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:50,306 - 127.0.0.1 - - [09/Apr/2025 23:25:50] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:25:56,562 - 127.0.0.1 - - [09/Apr/2025 23:25:56] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:26:01,152 - 127.0.0.1 - - [09/Apr/2025 23:26:01] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:26:02,472 - 127.0.0.1 - - [09/Apr/2025 23:26:02] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:26:10,979 - 127.0.0.1 - - [09/Apr/2025 23:26:10] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:26:15,541 - 127.0.0.1 - - [09/Apr/2025 23:26:15] "GET /processes HTTP/1.1" 200 -
+2025-04-09 23:26:19,766 - 127.0.0.1 - - [09/Apr/2025 23:26:19] "GET /processes HTTP/1.1" 200 -
+2025-04-10 04:07:32,037 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-10 04:07:32,037 - [33mPress CTRL+C to quit[0m
+2025-04-10 04:08:07,418 - 127.0.0.1 - - [10/Apr/2025 04:08:07] "GET /processes HTTP/1.1" 200 -
+2025-04-10 06:03:53,605 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-10 06:03:53,605 - [33mPress CTRL+C to quit[0m
+2025-04-10 06:04:12,835 - 127.0.0.1 - - [10/Apr/2025 06:04:12] "GET /processes HTTP/1.1" 200 -
+2025-04-10 06:04:19,783 - \u274c Manually killed: msedge.exe (PID: 21472)
+2025-04-10 06:04:19,799 - 127.0.0.1 - - [10/Apr/2025 06:04:19] "POST /kill/21472 HTTP/1.1" 200 -
+2025-04-10 06:04:19,835 - 127.0.0.1 - - [10/Apr/2025 06:04:19] "GET /processes HTTP/1.1" 200 -
+2025-04-10 06:04:25,137 - \u274c Manually killed: msedge.exe (PID: 5852)
+2025-04-10 06:04:25,165 - 127.0.0.1 - - [10/Apr/2025 06:04:25] "POST /kill/5852 HTTP/1.1" 200 -
+2025-04-10 06:04:26,181 - 127.0.0.1 - - [10/Apr/2025 06:04:26] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:44:49,967 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-10 15:44:49,967 - [33mPress CTRL+C to quit[0m
+2025-04-10 15:45:36,348 - 127.0.0.1 - - [10/Apr/2025 15:45:36] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:45:41,613 - 127.0.0.1 - - [10/Apr/2025 15:45:41] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:45:46,617 - 127.0.0.1 - - [10/Apr/2025 15:45:46] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:01,565 - 127.0.0.1 - - [10/Apr/2025 15:46:01] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:10,443 - 127.0.0.1 - - [10/Apr/2025 15:46:10] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:12,477 - 127.0.0.1 - - [10/Apr/2025 15:46:12] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:13,947 - 127.0.0.1 - - [10/Apr/2025 15:46:13] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:16,304 - 127.0.0.1 - - [10/Apr/2025 15:46:16] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:17,510 - 127.0.0.1 - - [10/Apr/2025 15:46:17] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:22,689 - 127.0.0.1 - - [10/Apr/2025 15:46:22] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:27,528 - 127.0.0.1 - - [10/Apr/2025 15:46:27] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:32,311 - 127.0.0.1 - - [10/Apr/2025 15:46:32] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:38,158 - 127.0.0.1 - - [10/Apr/2025 15:46:38] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:42,412 - 127.0.0.1 - - [10/Apr/2025 15:46:42] "GET /processes HTTP/1.1" 200 -
+2025-04-10 15:46:47,474 - 127.0.0.1 - - [10/Apr/2025 15:46:47] "GET /processes HTTP/1.1" 200 -
+2025-04-11 02:39:11,362 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-11 02:39:11,362 - [33mPress CTRL+C to quit[0m
+2025-04-11 03:00:11,651 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-11 03:00:11,651 - [33mPress CTRL+C to quit[0m
+2025-04-11 04:28:55,936 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-11 04:28:55,936 - [33mPress CTRL+C to quit[0m
+2025-04-11 04:38:02,987 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-11 04:38:02,987 - [33mPress CTRL+C to quit[0m
+2025-04-11 04:42:02,974 - 127.0.0.1 - - [11/Apr/2025 04:42:02] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:42:11,517 - 127.0.0.1 - - [11/Apr/2025 04:42:11] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:42:19,596 - 127.0.0.1 - - [11/Apr/2025 04:42:19] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:42:26,820 - 127.0.0.1 - - [11/Apr/2025 04:42:26] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:42:34,614 - 127.0.0.1 - - [11/Apr/2025 04:42:34] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:42:42,625 - 127.0.0.1 - - [11/Apr/2025 04:42:42] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:42:50,763 - 127.0.0.1 - - [11/Apr/2025 04:42:50] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:42:58,930 - 127.0.0.1 - - [11/Apr/2025 04:42:58] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:42:59,300 - 127.0.0.1 - - [11/Apr/2025 04:42:59] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:07,039 - 127.0.0.1 - - [11/Apr/2025 04:43:07] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:12,978 - 127.0.0.1 - - [11/Apr/2025 04:43:12] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:15,607 - 127.0.0.1 - - [11/Apr/2025 04:43:15] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:24,636 - 127.0.0.1 - - [11/Apr/2025 04:43:24] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:24,863 - 127.0.0.1 - - [11/Apr/2025 04:43:24] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:34,458 - 127.0.0.1 - - [11/Apr/2025 04:43:34] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:34,468 - 127.0.0.1 - - [11/Apr/2025 04:43:34] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:41,637 - 127.0.0.1 - - [11/Apr/2025 04:43:41] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:48,980 - 127.0.0.1 - - [11/Apr/2025 04:43:48] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:43:50,103 - 127.0.0.1 - - [11/Apr/2025 04:43:50] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:00,746 - 127.0.0.1 - - [11/Apr/2025 04:44:00] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:00,824 - 127.0.0.1 - - [11/Apr/2025 04:44:00] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:11,274 - 127.0.0.1 - - [11/Apr/2025 04:44:11] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:11,303 - 127.0.0.1 - - [11/Apr/2025 04:44:11] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:19,902 - 127.0.0.1 - - [11/Apr/2025 04:44:19] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:21,001 - 127.0.0.1 - - [11/Apr/2025 04:44:21] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:27,751 - 127.0.0.1 - - [11/Apr/2025 04:44:27] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:29,429 - 127.0.0.1 - - [11/Apr/2025 04:44:29] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:36,395 - 127.0.0.1 - - [11/Apr/2025 04:44:36] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:43,746 - 127.0.0.1 - - [11/Apr/2025 04:44:43] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:45,620 - 127.0.0.1 - - [11/Apr/2025 04:44:45] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:54,980 - 127.0.0.1 - - [11/Apr/2025 04:44:54] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:44:57,473 - 127.0.0.1 - - [11/Apr/2025 04:44:57] "GET /processes HTTP/1.1" 200 -
+2025-04-11 04:45:05,247 - 127.0.0.1 - - [11/Apr/2025 04:45:05] "GET /processes HTTP/1.1" 200 -

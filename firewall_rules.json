@@ -1,0 +1,10 @@
+[
+    {
+        "action": "block",
+        "protocol": "",
+        "src_ip": "10.12.12.191",
+        "dst_ip": "",
+        "port": null
+    }
+   
+]

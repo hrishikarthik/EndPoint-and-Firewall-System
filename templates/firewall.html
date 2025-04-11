@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GuardFusion - Firewall Logs</title>
+    <style>
+        body {
+            background-color: #0e0e0e;
+            color: #e0e0e0;
+            font-family: "Segoe UI", sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #00ffcc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #222;
+        }
+        .form-container {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+        }
+        input, select {
+            margin: 5px;
+            padding: 5px;
+        }
+        .btn {
+            background-color: #00ffcc;
+            color: #000;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        #message {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🛡️ Firewall Logs</h1>
+
+    <div class="form-container">
+        <h3>Add New Rule</h3>
+        <form id="ruleForm">
+            <input type="text" name="src_ip" placeholder="Source IP">
+            <input type="text" name="dst_ip" placeholder="Destination IP">
+            <input type="text" name="src_port" placeholder="Source Port">
+            <input type="text" name="dst_port" placeholder="Destination Port">
+            <select name="protocol">
+                <option value="">Any</option>
+                <option value="TCP">TCP</option>
+                <option value="UDP">UDP</option>
+            </select>
+            <select name="action">
+                <option value="block">Block</option>
+                <option value="allow">Allow</option>
+            </select>
+            <button class="btn" type="submit">Add Rule</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <h3>Recent Logs</h3>
+    <table>
+        <tr>
+            <th>Timestamp</th>
+            <th>Source IP</th>
+            <th>Destination IP</th>
+            <th>Source Port</th>
+            <th>Destination Port</th>
+            <th>Protocol</th>
+        </tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log.timestamp }}</td>
+            <td>{{ log.src_ip }}</td>
+            <td>{{ log.dst_ip }}</td>
+            <td>{{ log.src_port }}</td>
+            <td>{{ log.dst_port }}</td>
+            <td>{{ log.protocol }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <script>
+        document.getElementById("ruleForm").addEventListener("submit", function (e) {
+            e.preventDefault();  // Prevent form reload
+
+            const formData = new FormData(this);
+
+            fetch("/submit_rule", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("message").innerHTML =
+                    `<p style="color: green;">✅ ${data.message}</p>`;
+                this.reset();  // Clear form
+            })
+            .catch(error => {
+                document.getElementById("message").innerHTML =
+                    `<p style="color: red;">❌ Error adding rule</p>`;
+                console.error("Error:", error);
+            });
+        });
+    </script>
+</body>
+</html>

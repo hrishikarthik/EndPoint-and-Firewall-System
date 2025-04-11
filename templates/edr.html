@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EDR Monitor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        table {
+            background-color: #1e293b;
+        }
+        thead th {
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mb-4">🛡️ EDR Process Monitor</h2>
+        <table class="table table-dark table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>PID</th>
+                    <th>Name</th>
+                    <th>Path</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="process-list"></tbody>
+        </table>
+    </div>
+
+    <script>
+        function getCurrentTimestamp() {
+            return new Date().toLocaleString();
+        }
+
+        async function fetchProcesses() {
+            try {
+                const response = await fetch('/get_processes');
+                const data = await response.json();
+                const processList = document.getElementById('process-list');
+                processList.innerHTML = '';
+
+                data.forEach(proc => {
+                    processList.innerHTML += `
+                        <tr>
+                            <td>${getCurrentTimestamp()}</td>
+                            <td>${proc.pid}</td>
+                            <td>${proc.name}</td>
+                            <td>${proc.path}</td>
+                            <td><button class="btn btn-danger btn-sm" onclick="killProcess(${proc.pid})">Kill</button></td>
+                        </tr>
+                    `;
+                });
+            } catch (err) {
+                console.error("Failed to fetch processes", err);
+            }
+        }
+
+        async function killProcess(pid) {
+            try {
+                const response = await fetch(`/kill/${pid}`);
+                const result = await response.json();
+                alert(result.message);
+                fetchProcesses();
+            } catch (error) {
+                console.error("Error killing process", error);
+            }
+        }
+
+        setInterval(fetchProcesses, 5000);
+        window.onload = fetchProcesses;
+    </script>
+</body>
+</html>
