@@ -2,9 +2,25 @@
     {
         "action": "block",
         "protocol": "",
-        "src_ip": "10.12.12.191",
+        "src_ip": "10.19.13.117",
         "dst_ip": "",
-        "port": null
+        "src_port": "",
+        "dst_port": ""
+    },
+    {
+        "action": "block",
+        "protocol": "",
+        "src_ip": "10.19.13.237",
+        "dst_ip": "",
+        "src_port": "",
+        "dst_port": ""
+    },
+    {
+        "action": "block",
+        "protocol": "",
+        "src_ip": "10.19.17.40",
+        "dst_ip": "",
+        "src_port": "",
+        "dst_port": ""
     }
-   
 ]

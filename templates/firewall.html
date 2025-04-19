@@ -1,3 +1,4 @@
+<!-- templates/firewall.html -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,9 +43,6 @@
             padding: 8px 12px;
             cursor: pointer;
         }
-        #message {
-            margin-top: 10px;
-        }
     </style>
 </head>
 <body>
@@ -52,7 +50,7 @@
 
     <div class="form-container">
         <h3>Add New Rule</h3>
-        <form id="ruleForm">
+        <form action="/add_rule" method="POST">
             <input type="text" name="src_ip" placeholder="Source IP">
             <input type="text" name="dst_ip" placeholder="Destination IP">
             <input type="text" name="src_port" placeholder="Source Port">
@@ -68,7 +66,6 @@
             </select>
             <button class="btn" type="submit">Add Rule</button>
         </form>
-        <div id="message"></div>
     </div>
 
     <h3>Recent Logs</h3>
@@ -92,29 +89,5 @@
         </tr>
         {% endfor %}
     </table>
-
-    <script>
-        document.getElementById("ruleForm").addEventListener("submit", function (e) {
-            e.preventDefault();  // Prevent form reload
-
-            const formData = new FormData(this);
-
-            fetch("/submit_rule", {
-                method: "POST",
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById("message").innerHTML =
-                    `<p style="color: green;">✅ ${data.message}</p>`;
-                this.reset();  // Clear form
-            })
-            .catch(error => {
-                document.getElementById("message").innerHTML =
-                    `<p style="color: red;">❌ Error adding rule</p>`;
-                console.error("Error:", error);
-            });
-        });
-    </script>
 </body>
 </html>

@@ -545,3 +545,1210 @@
 2025-04-11 04:44:54,980 - 127.0.0.1 - - [11/Apr/2025 04:44:54] "GET /processes HTTP/1.1" 200 -
 2025-04-11 04:44:57,473 - 127.0.0.1 - - [11/Apr/2025 04:44:57] "GET /processes HTTP/1.1" 200 -
 2025-04-11 04:45:05,247 - 127.0.0.1 - - [11/Apr/2025 04:45:05] "GET /processes HTTP/1.1" 200 -
+2025-04-12 12:41:02,284 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:41:07,305 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:41:11,459 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:41:16,282 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:41:24,845 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:41:32,281 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:41:40,924 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:41:49,435 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:42:06,262 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:42:17,507 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:42:54,394 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:43:52,985 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:44:52,626 - Exception on /processes [GET]
+Traceback (most recent call last):
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\anaconda3\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 74, in list_processes
+    detect_malicious_processes()
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 48, in detect_malicious_processes
+    file_hash = get_file_hash(exe)
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hrishikesh\Desktop\GaurdFusion\edr.py", line 24, in get_file_hash
+    with open(filepath, "rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\$WINDOWS.~BT\\Work\\850525CC-9952-4D10-888E-C144582857D1\\DismHost.exe'
+2025-04-12 12:47:46,009 - File not found: Registry
+2025-04-12 12:47:46,384 - File not found: MemCompression
+2025-04-12 12:47:48,200 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:47:55,086 - File not found: Registry
+2025-04-12 12:47:55,430 - File not found: MemCompression
+2025-04-12 12:47:56,965 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:48:05,349 - File not found: Registry
+2025-04-12 12:48:05,908 - File not found: MemCompression
+2025-04-12 12:48:08,257 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:48:17,848 - File not found: Registry
+2025-04-12 12:48:18,738 - File not found: MemCompression
+2025-04-12 12:48:22,039 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:48:34,121 - File not found: Registry
+2025-04-12 12:48:34,655 - File not found: MemCompression
+2025-04-12 12:48:37,063 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:48:46,372 - File not found: Registry
+2025-04-12 12:48:46,892 - File not found: MemCompression
+2025-04-12 12:48:48,926 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:48:57,151 - File not found: Registry
+2025-04-12 12:48:57,618 - File not found: MemCompression
+2025-04-12 12:48:59,548 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:49:07,650 - File not found: Registry
+2025-04-12 12:49:08,246 - File not found: MemCompression
+2025-04-12 12:49:10,459 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:49:18,920 - File not found: Registry
+2025-04-12 12:49:19,421 - File not found: MemCompression
+2025-04-12 12:49:21,600 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:49:30,104 - File not found: Registry
+2025-04-12 12:49:30,668 - File not found: MemCompression
+2025-04-12 12:49:32,687 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:49:41,054 - File not found: Registry
+2025-04-12 12:49:41,620 - File not found: MemCompression
+2025-04-12 12:49:43,610 - Permission denied: C:\$WINDOWS.~BT\Work\850525CC-9952-4D10-888E-C144582857D1\DismHost.exe
+2025-04-12 12:49:52,123 - File not found: Registry
+2025-04-12 12:49:52,603 - File not found: MemCompression
+2025-04-12 12:50:04,630 - File not found: Registry
+2025-04-12 12:50:05,224 - File not found: MemCompression
+2025-04-12 12:50:16,170 - File not found: Registry
+2025-04-12 12:50:16,655 - File not found: MemCompression
+2025-04-12 12:50:27,751 - File not found: Registry
+2025-04-12 12:50:28,188 - File not found: MemCompression
+2025-04-12 12:50:39,439 - File not found: Registry
+2025-04-12 12:50:39,955 - File not found: MemCompression
+2025-04-12 12:50:51,028 - File not found: Registry
+2025-04-12 12:50:51,578 - File not found: MemCompression
+2025-04-12 12:51:04,002 - File not found: Registry
+2025-04-12 12:51:04,659 - File not found: MemCompression
+2025-04-12 12:51:19,320 - File not found: Registry
+2025-04-12 12:51:19,744 - File not found: MemCompression
+2025-04-12 12:51:30,719 - File not found: Registry
+2025-04-12 12:51:31,358 - File not found: MemCompression
+2025-04-12 12:51:44,251 - File not found: Registry
+2025-04-12 12:51:44,741 - File not found: MemCompression
+2025-04-12 12:52:25,042 - File not found: Registry
+2025-04-12 12:52:25,449 - File not found: MemCompression
+2025-04-12 12:52:34,443 - File not found: Registry
+2025-04-12 12:52:34,861 - File not found: MemCompression
+2025-04-12 12:52:45,794 - File not found: Registry
+2025-04-12 12:52:46,323 - File not found: MemCompression
+2025-04-12 12:52:57,158 - File not found: Registry
+2025-04-12 12:52:57,743 - File not found: MemCompression
+2025-04-12 12:53:07,899 - File not found: Registry
+2025-04-12 12:53:08,446 - File not found: MemCompression
+2025-04-12 12:53:19,528 - File not found: Registry
+2025-04-12 12:53:19,971 - File not found: MemCompression
+2025-04-12 12:53:30,150 - File not found: Registry
+2025-04-12 12:53:30,510 - File not found: MemCompression
+2025-04-12 12:53:39,001 - File not found: Registry
+2025-04-12 12:53:39,581 - File not found: MemCompression
+2025-04-12 12:53:51,309 - File not found: Registry
+2025-04-12 12:53:51,841 - File not found: MemCompression
+2025-04-12 12:54:02,244 - File not found: Registry
+2025-04-12 12:54:02,726 - File not found: MemCompression
+2025-04-12 12:54:11,559 - File not found: Registry
+2025-04-12 12:54:11,937 - File not found: MemCompression
+2025-04-12 12:54:54,298 - File not found: Registry
+2025-04-12 12:54:54,657 - File not found: MemCompression
+2025-04-12 12:55:03,172 - File not found: Registry
+2025-04-12 12:55:03,605 - File not found: MemCompression
+2025-04-12 12:55:12,737 - File not found: Registry
+2025-04-12 12:55:13,187 - File not found: MemCompression
+2025-04-12 12:55:22,459 - File not found: Registry
+2025-04-12 12:55:22,836 - File not found: MemCompression
+2025-04-12 12:55:31,681 - File not found: Registry
+2025-04-12 12:55:32,134 - File not found: MemCompression
+2025-04-12 12:55:41,456 - File not found: Registry
+2025-04-12 12:55:41,868 - File not found: MemCompression
+2025-04-12 12:55:50,855 - File not found: Registry
+2025-04-12 12:55:51,289 - File not found: MemCompression
+2025-04-12 12:56:00,915 - File not found: Registry
+2025-04-12 12:56:01,463 - File not found: MemCompression
+2025-04-12 12:56:10,535 - File not found: Registry
+2025-04-12 12:56:11,192 - File not found: MemCompression
+2025-04-12 12:56:21,660 - File not found: Registry
+2025-04-12 12:56:22,161 - File not found: MemCompression
+2025-04-12 12:56:32,579 - File not found: Registry
+2025-04-12 12:56:33,104 - File not found: MemCompression
+2025-04-12 12:56:44,445 - File not found: Registry
+2025-04-12 12:56:45,007 - File not found: MemCompression
+2025-04-12 12:56:56,959 - File not found: Registry
+2025-04-12 12:56:57,493 - File not found: MemCompression
+2025-04-12 12:57:09,832 - File not found: Registry
+2025-04-12 12:57:10,421 - File not found: MemCompression
+2025-04-12 12:57:19,570 - File not found: Registry
+2025-04-12 12:57:20,011 - File not found: MemCompression
+2025-04-12 13:01:28,124 - File not found: Registry
+2025-04-12 13:01:28,497 - File not found: MemCompression
+2025-04-12 13:01:36,654 - File not found: Registry
+2025-04-12 13:01:36,756 - File not found: Registry
+2025-04-12 13:01:37,426 - File not found: MemCompression
+2025-04-12 13:01:37,441 - File not found: MemCompression
+2025-04-12 13:01:46,459 - File not found: Registry
+2025-04-12 13:01:46,862 - File not found: MemCompression
+2025-04-12 13:01:48,407 - File not found: Registry
+2025-04-12 13:01:48,886 - File not found: MemCompression
+2025-04-12 13:01:54,179 - File not found: Registry
+2025-04-12 13:01:54,635 - File not found: MemCompression
+2025-04-12 13:01:59,641 - File not found: Registry
+2025-04-12 13:02:00,295 - File not found: MemCompression
+2025-04-12 13:02:04,707 - File not found: Registry
+2025-04-12 13:02:05,256 - File not found: MemCompression
+2025-04-12 13:02:11,767 - File not found: Registry
+2025-04-12 13:02:12,239 - File not found: MemCompression
+2025-04-12 13:02:14,095 - File not found: Registry
+2025-04-12 13:02:14,766 - File not found: MemCompression
+2025-04-12 13:02:23,852 - File not found: Registry
+2025-04-12 13:02:24,291 - File not found: MemCompression
+2025-04-12 13:02:24,385 - File not found: Registry
+2025-04-12 13:02:25,155 - File not found: MemCompression
+2025-04-12 13:02:32,590 - File not found: Registry
+2025-04-12 13:02:33,951 - File not found: MemCompression
+2025-04-12 13:02:35,737 - File not found: Registry
+2025-04-12 13:02:36,175 - File not found: MemCompression
+2025-04-12 13:02:40,901 - File not found: Registry
+2025-04-12 13:02:41,370 - File not found: MemCompression
+2025-04-12 13:02:45,955 - File not found: Registry
+2025-04-12 13:02:46,409 - File not found: MemCompression
+2025-04-12 13:02:49,255 - File not found: Registry
+2025-04-12 13:02:50,452 - File not found: MemCompression
+2025-04-12 13:06:46,949 - File not found: Registry
+2025-04-12 13:06:47,312 - File not found: MemCompression
+2025-04-12 13:06:53,854 - File not found: Registry
+2025-04-12 13:06:54,204 - File not found: MemCompression
+2025-04-12 13:06:55,491 - File not found: Registry
+2025-04-12 13:06:55,896 - File not found: MemCompression
+2025-04-12 13:07:01,218 - File not found: Registry
+2025-04-12 13:07:01,721 - File not found: MemCompression
+2025-04-12 13:07:07,247 - File not found: Registry
+2025-04-13 14:52:30,059 - File not found: Registry
+2025-04-13 14:52:30,293 - File not found: MemCompression
+2025-04-13 14:52:33,546 - File not found: Registry
+2025-04-13 14:52:33,796 - File not found: MemCompression
+2025-04-13 14:52:36,772 - File not found: Registry
+2025-04-13 14:52:37,097 - File not found: MemCompression
+2025-04-13 14:52:38,952 - File not found: Registry
+2025-04-13 14:52:39,173 - File not found: MemCompression
+2025-04-13 14:52:40,242 - File not found: Registry
+2025-04-13 14:52:40,477 - File not found: MemCompression
+2025-04-13 14:52:43,664 - File not found: Registry
+2025-04-13 14:52:43,910 - File not found: MemCompression
+2025-04-13 14:52:43,941 - File not found: Registry
+2025-04-13 14:52:44,288 - File not found: MemCompression
+2025-04-13 14:52:45,812 - \u274c Manually killed: msedge.exe (PID: 13668)
+2025-04-13 14:52:47,264 - File not found: Registry
+2025-04-13 14:52:47,501 - File not found: MemCompression
+2025-04-13 14:52:47,681 - File not found: Registry
+2025-04-13 14:52:47,988 - File not found: MemCompression
+2025-04-13 14:52:49,357 - File not found: Registry
+2025-04-13 14:52:49,578 - File not found: MemCompression
+2025-04-13 14:52:50,761 - File not found: Registry
+2025-04-13 14:52:50,985 - File not found: MemCompression
+2025-04-13 14:52:53,385 - \u274c Manually killed: msedge.exe (PID: 12056)
+2025-04-13 14:52:53,984 - File not found: Registry
+2025-04-13 14:52:54,386 - File not found: MemCompression
+2025-04-13 14:52:55,135 - File not found: Registry
+2025-04-13 14:52:55,890 - File not found: MemCompression
+2025-04-13 14:52:56,956 - \u274c Manually killed: msedge.exe (PID: 14668)
+2025-04-13 14:52:56,988 - File not found: Registry
+2025-04-13 14:52:57,207 - File not found: MemCompression
+2025-04-13 14:52:57,800 - File not found: Registry
+2025-04-13 14:52:58,513 - File not found: MemCompression
+2025-04-13 14:52:58,584 - File not found: Registry
+2025-04-13 14:52:59,000 - File not found: MemCompression
+2025-04-13 14:53:00,523 - File not found: Registry
+2025-04-13 14:53:00,768 - File not found: MemCompression
+2025-04-13 14:53:02,035 - File not found: Registry
+2025-04-13 14:53:02,385 - File not found: MemCompression
+2025-04-13 14:53:03,941 - File not found: Registry
+2025-04-13 14:53:04,203 - File not found: MemCompression
+2025-04-13 14:53:05,440 - File not found: Registry
+2025-04-13 14:53:05,667 - File not found: MemCompression
+2025-04-13 14:53:08,584 - File not found: Registry
+2025-04-13 14:53:08,833 - File not found: MemCompression
+2025-04-13 14:53:08,948 - File not found: Registry
+2025-04-13 14:53:09,306 - File not found: MemCompression
+2025-04-13 14:53:12,295 - File not found: Registry
+2025-04-13 14:53:12,545 - File not found: MemCompression
+2025-04-13 14:53:13,936 - File not found: Registry
+2025-04-13 14:53:14,175 - File not found: MemCompression
+2025-04-13 14:53:15,451 - File not found: Registry
+2025-04-13 14:53:15,664 - File not found: MemCompression
+2025-04-13 14:53:17,677 - \u274c Manually killed: msedge.exe (PID: 13004)
+2025-04-13 14:53:18,573 - File not found: Registry
+2025-04-13 14:53:18,789 - File not found: MemCompression
+2025-04-13 14:53:18,868 - File not found: Registry
+2025-04-13 14:53:19,261 - File not found: MemCompression
+2025-04-13 14:53:20,700 - File not found: Registry
+2025-04-13 14:53:20,947 - File not found: MemCompression
+2025-04-13 14:53:22,131 - File not found: Registry
+2025-04-13 14:53:22,367 - File not found: MemCompression
+2025-04-13 14:53:23,933 - File not found: Registry
+2025-04-13 14:53:24,187 - File not found: MemCompression
+2025-04-13 14:53:25,471 - File not found: Registry
+2025-04-13 14:53:25,740 - File not found: MemCompression
+2025-04-13 14:53:28,657 - File not found: Registry
+2025-04-13 14:53:28,884 - File not found: MemCompression
+2025-04-13 14:53:28,934 - File not found: Registry
+2025-04-13 14:53:29,381 - File not found: MemCompression
+2025-04-13 14:53:32,433 - File not found: Registry
+2025-04-13 14:53:32,653 - File not found: MemCompression
+2025-04-13 14:53:33,938 - File not found: Registry
+2025-04-13 14:53:34,193 - File not found: MemCompression
+2025-04-13 14:53:35,618 - File not found: Registry
+2025-04-13 14:53:35,930 - File not found: MemCompression
+2025-04-13 14:53:38,943 - File not found: Registry
+2025-04-13 14:53:38,985 - File not found: Registry
+2025-04-13 14:53:39,403 - File not found: MemCompression
+2025-04-13 14:53:39,451 - File not found: MemCompression
+2025-04-13 14:53:43,285 - File not found: Registry
+2025-04-13 14:53:43,553 - File not found: MemCompression
+2025-04-13 14:53:43,950 - File not found: Registry
+2025-04-13 14:53:44,371 - File not found: MemCompression
+2025-04-13 14:53:47,387 - File not found: Registry
+2025-04-13 14:53:47,732 - File not found: MemCompression
+2025-04-13 14:53:51,682 - File not found: Registry
+2025-04-13 14:53:52,399 - File not found: MemCompression
+2025-04-13 14:53:56,902 - File not found: Registry
+2025-04-13 14:53:57,930 - File not found: MemCompression
+2025-04-13 14:54:03,189 - File not found: Registry
+2025-04-13 14:54:03,991 - File not found: MemCompression
+2025-04-13 14:54:08,490 - File not found: Registry
+2025-04-13 14:54:08,932 - File not found: MemCompression
+2025-04-13 14:54:13,089 - File not found: Registry
+2025-04-13 14:54:13,633 - File not found: MemCompression
+2025-04-13 14:54:20,656 - File not found: Registry
+2025-04-13 14:54:21,666 - File not found: MemCompression
+2025-04-13 14:54:29,165 - File not found: Registry
+2025-04-13 14:54:30,517 - File not found: MemCompression
+2025-04-13 14:54:38,502 - File not found: Registry
+2025-04-13 14:54:39,434 - File not found: MemCompression
+2025-04-13 14:54:46,349 - File not found: Registry
+2025-04-13 14:54:47,919 - File not found: MemCompression
+2025-04-13 14:54:54,643 - File not found: Registry
+2025-04-13 14:54:55,748 - File not found: MemCompression
+2025-04-13 14:55:02,274 - File not found: Registry
+2025-04-13 14:59:55,954 - File not found: Registry
+2025-04-13 15:00:00,495 - File not found: MemCompression
+2025-04-13 15:00:05,573 - File not found: Registry
+2025-04-13 15:00:09,916 - File not found: MemCompression
+2025-04-13 15:00:21,676 - File not found: Registry
+2025-04-13 15:00:25,348 - File not found: MemCompression
+2025-04-13 15:00:27,896 - File not found: Registry
+2025-04-13 15:00:31,694 - File not found: MemCompression
+2025-04-13 15:00:44,698 - File not found: Registry
+2025-04-13 15:00:49,023 - File not found: Registry
+2025-04-13 15:00:49,096 - File not found: MemCompression
+2025-04-13 15:00:53,497 - File not found: MemCompression
+2025-04-13 15:01:10,661 - File not found: Registry
+2025-04-13 15:01:12,990 - File not found: Registry
+2025-04-13 15:01:14,605 - File not found: MemCompression
+2025-04-13 15:01:16,945 - File not found: MemCompression
+2025-04-13 15:01:35,655 - File not found: Registry
+2025-04-13 15:01:35,751 - File not found: Registry
+2025-04-13 15:01:40,269 - File not found: MemCompression
+2025-04-13 15:01:40,269 - File not found: MemCompression
+2025-04-13 15:02:02,985 - File not found: Registry
+2025-04-13 15:02:04,005 - File not found: Registry
+2025-04-13 15:02:06,593 - File not found: MemCompression
+2025-04-13 15:02:07,665 - File not found: MemCompression
+2025-04-13 15:02:26,105 - File not found: Registry
+2025-04-13 15:02:29,558 - File not found: Registry
+2025-04-13 15:02:31,348 - File not found: MemCompression
+2025-04-13 15:02:34,317 - File not found: MemCompression
+2025-04-13 15:05:22,058 - File not found: Registry
+2025-04-13 15:05:26,385 - File not found: MemCompression
+2025-04-13 15:05:27,287 - File not found: Registry
+2025-04-13 15:05:31,089 - File not found: MemCompression
+2025-04-13 15:05:47,030 - File not found: Registry
+2025-04-13 15:05:48,961 - File not found: Registry
+2025-04-13 15:05:50,292 - File not found: MemCompression
+2025-04-13 15:05:52,532 - File not found: MemCompression
+2025-04-13 15:06:09,913 - File not found: Registry
+2025-04-13 15:06:10,309 - File not found: Registry
+2025-04-13 15:06:12,908 - File not found: MemCompression
+2025-04-13 15:06:13,300 - File not found: MemCompression
+2025-04-13 15:06:28,682 - File not found: Registry
+2025-04-13 15:06:31,760 - File not found: Registry
+2025-04-13 15:06:32,322 - File not found: MemCompression
+2025-04-13 15:06:34,963 - File not found: MemCompression
+2025-04-13 15:06:54,529 - File not found: Registry
+2025-04-13 15:07:00,250 - File not found: MemCompression
+2025-04-13 15:07:02,282 - File not found: Registry
+2025-04-13 15:07:06,427 - File not found: MemCompression
+2025-04-13 15:07:25,179 - File not found: Registry
+2025-04-13 15:07:30,793 - File not found: MemCompression
+2025-04-13 15:07:32,807 - File not found: Registry
+2025-04-13 15:07:36,943 - File not found: MemCompression
+2025-04-13 15:10:49,679 - File not found: Registry
+2025-04-13 15:10:54,513 - File not found: Registry
+2025-04-13 15:10:54,662 - File not found: MemCompression
+2025-04-13 15:10:58,238 - File not found: MemCompression
+2025-04-13 15:11:13,951 - File not found: Registry
+2025-04-13 15:11:15,501 - File not found: Registry
+2025-04-13 15:11:18,461 - File not found: MemCompression
+2025-04-13 15:11:19,102 - File not found: MemCompression
+2025-04-13 15:11:37,022 - File not found: Registry
+2025-04-13 15:11:37,869 - File not found: Registry
+2025-04-13 15:11:40,269 - File not found: MemCompression
+2025-04-13 15:11:41,287 - File not found: MemCompression
+2025-04-13 15:11:58,427 - File not found: Registry
+2025-04-13 15:12:01,804 - File not found: Registry
+2025-04-13 15:12:02,555 - File not found: MemCompression
+2025-04-13 15:12:04,638 - File not found: MemCompression
+2025-04-13 15:12:17,915 - File not found: Registry
+2025-04-13 15:12:21,368 - File not found: MemCompression
+2025-04-13 15:12:22,352 - File not found: Registry
+2025-04-13 15:12:25,689 - File not found: MemCompression
+2025-04-13 15:12:41,942 - File not found: Registry
+2025-04-13 15:12:46,181 - File not found: MemCompression
+2025-04-13 15:12:49,948 - File not found: Registry
+2025-04-13 15:12:54,395 - File not found: MemCompression
+2025-04-13 15:13:09,010 - \u274c Manually killed: python.exe (PID: 14408)
+2025-04-13 15:13:09,089 - File not found: Registry
+2025-04-13 15:13:12,887 - File not found: MemCompression
+2025-04-13 15:13:17,812 - File not found: Registry
+2025-04-13 15:13:21,715 - File not found: MemCompression
+2025-04-13 15:13:32,679 - File not found: Registry
+2025-04-13 15:13:36,307 - File not found: MemCompression
+2025-04-13 15:13:43,224 - File not found: Registry
+2025-04-13 15:13:47,869 - File not found: MemCompression
+2025-04-13 15:14:01,830 - File not found: Registry
+2025-04-13 15:14:06,390 - File not found: MemCompression
+2025-04-13 15:14:14,078 - File not found: Registry
+2025-04-13 15:14:19,178 - File not found: MemCompression
+2025-04-13 15:14:46,661 - File not found: Registry
+2025-04-13 15:14:47,034 - File not found: Registry
+2025-04-13 15:14:52,722 - File not found: MemCompression
+2025-04-13 15:14:53,255 - File not found: MemCompression
+2025-04-13 15:15:13,542 - File not found: Registry
+2025-04-13 15:15:14,684 - File not found: Registry
+2025-04-13 15:15:16,748 - File not found: MemCompression
+2025-04-13 15:15:17,623 - File not found: MemCompression
+2025-04-13 15:15:32,673 - File not found: Registry
+2025-04-13 15:15:35,869 - File not found: Registry
+2025-04-13 15:15:36,620 - File not found: MemCompression
+2025-04-13 15:15:38,888 - File not found: MemCompression
+2025-04-13 15:15:53,347 - File not found: Registry
+2025-04-13 15:15:54,923 - File not found: MemCompression
+2025-04-13 15:15:56,569 - File not found: Registry
+2025-04-13 15:15:58,038 - File not found: MemCompression
+2025-04-13 15:16:02,127 - File not found: Registry
+2025-04-13 15:16:03,464 - File not found: MemCompression
+2025-04-13 15:16:07,036 - File not found: Registry
+2025-04-13 15:16:08,382 - File not found: MemCompression
+2025-04-13 15:16:11,126 - File not found: Registry
+2025-04-13 15:16:12,508 - File not found: MemCompression
+2025-04-13 15:16:18,182 - File not found: Registry
+2025-04-13 15:16:20,267 - File not found: Registry
+2025-04-13 15:16:20,267 - File not found: MemCompression
+2025-04-13 15:16:21,868 - File not found: MemCompression
+2025-04-13 15:16:27,815 - File not found: Registry
+2025-04-13 15:16:28,487 - File not found: Registry
+2025-04-13 15:16:28,926 - File not found: MemCompression
+2025-04-13 15:16:29,708 - File not found: MemCompression
+2025-04-13 15:16:34,528 - File not found: Registry
+2025-04-13 15:16:35,781 - File not found: MemCompression
+2025-04-13 15:16:37,393 - File not found: Registry
+2025-04-13 15:16:38,442 - File not found: MemCompression
+2025-04-13 15:16:41,451 - File not found: Registry
+2025-04-13 15:16:42,691 - File not found: MemCompression
+2025-04-13 15:16:46,793 - File not found: Registry
+2025-04-13 15:16:47,904 - File not found: MemCompression
+2025-04-13 15:16:48,750 - File not found: Registry
+2025-04-13 15:16:49,939 - File not found: MemCompression
+2025-04-13 15:16:56,095 - File not found: Registry
+2025-04-13 15:16:56,205 - File not found: Registry
+2025-04-13 15:16:57,160 - File not found: MemCompression
+2025-04-13 15:16:57,316 - File not found: MemCompression
+2025-04-13 15:17:03,055 - File not found: Registry
+2025-04-13 15:17:04,589 - File not found: MemCompression
+2025-04-13 15:17:05,653 - File not found: Registry
+2025-04-13 15:17:06,904 - File not found: MemCompression
+2025-04-13 15:17:10,717 - File not found: Registry
+2025-04-13 15:17:11,830 - File not found: MemCompression
+2025-04-13 15:17:15,059 - File not found: Registry
+2025-04-13 15:17:16,262 - File not found: MemCompression
+2025-04-13 15:17:18,270 - File not found: Registry
+2025-04-13 15:17:19,745 - File not found: MemCompression
+2025-04-13 15:17:25,554 - File not found: Registry
+2025-04-13 15:17:25,947 - \u274c Manually killed: python.exe (PID: 5620)
+2025-04-13 15:17:25,984 - File not found: Registry
+2025-04-13 15:17:27,443 - File not found: MemCompression
+2025-04-13 15:17:27,584 - File not found: MemCompression
+2025-04-13 15:17:35,479 - File not found: Registry
+2025-04-13 15:17:36,417 - File not found: MemCompression
+2025-04-13 15:17:43,908 - File not found: Registry
+2025-04-13 15:17:44,921 - File not found: MemCompression
+2025-04-13 15:17:52,925 - File not found: Registry
+2025-04-13 15:17:53,869 - File not found: MemCompression
+2025-04-13 15:18:01,089 - File not found: Registry
+2025-04-13 15:18:02,052 - File not found: MemCompression
+2025-04-13 15:18:10,149 - File not found: Registry
+2025-04-13 15:18:11,138 - File not found: MemCompression
+2025-04-13 15:18:18,392 - File not found: Registry
+2025-04-13 15:18:19,559 - File not found: MemCompression
+2025-04-13 15:18:27,601 - File not found: Registry
+2025-04-13 15:18:28,639 - File not found: MemCompression
+2025-04-13 15:18:36,656 - File not found: Registry
+2025-04-13 15:18:37,696 - File not found: MemCompression
+2025-04-13 15:18:46,927 - File not found: Registry
+2025-04-13 15:18:48,559 - File not found: MemCompression
+2025-04-13 15:18:57,336 - File not found: Registry
+2025-04-13 15:18:58,355 - File not found: MemCompression
+2025-04-13 15:19:05,588 - File not found: Registry
+2025-04-13 15:19:06,654 - File not found: MemCompression
+2025-04-13 15:19:13,729 - File not found: Registry
+2025-04-13 15:19:14,745 - File not found: MemCompression
+2025-04-13 15:19:22,718 - File not found: Registry
+2025-04-13 15:19:23,894 - File not found: MemCompression
+2025-04-13 15:19:31,824 - File not found: Registry
+2025-04-13 15:19:33,003 - File not found: MemCompression
+2025-04-13 15:19:41,898 - File not found: Registry
+2025-04-13 15:19:43,716 - File not found: MemCompression
+2025-04-13 15:19:52,918 - File not found: Registry
+2025-04-13 15:19:54,113 - File not found: MemCompression
+2025-04-13 15:20:02,314 - File not found: Registry
+2025-04-13 15:20:03,414 - File not found: MemCompression
+2025-04-13 15:20:11,239 - File not found: Registry
+2025-04-13 15:20:12,398 - File not found: MemCompression
+2025-04-13 15:20:20,550 - File not found: Registry
+2025-04-13 15:20:21,573 - File not found: MemCompression
+2025-04-13 15:20:28,855 - File not found: Registry
+2025-04-13 15:20:29,867 - File not found: MemCompression
+2025-04-13 15:20:36,965 - File not found: Registry
+2025-04-13 15:20:37,904 - File not found: MemCompression
+2025-04-13 15:20:45,001 - File not found: Registry
+2025-04-13 15:20:46,066 - File not found: MemCompression
+2025-04-13 15:20:53,360 - File not found: Registry
+2025-04-13 15:20:54,412 - File not found: MemCompression
+2025-04-13 15:21:01,520 - File not found: Registry
+2025-04-13 15:21:02,608 - File not found: MemCompression
+2025-04-13 15:21:09,903 - File not found: Registry
+2025-04-13 15:21:10,923 - File not found: MemCompression
+2025-04-13 15:21:18,125 - File not found: Registry
+2025-04-13 15:21:19,314 - File not found: MemCompression
+2025-04-13 15:21:26,756 - File not found: Registry
+2025-04-13 15:21:27,913 - File not found: MemCompression
+2025-04-13 15:21:34,903 - File not found: Registry
+2025-04-13 15:21:35,885 - File not found: MemCompression
+2025-04-13 15:21:43,123 - File not found: Registry
+2025-04-13 15:21:44,062 - File not found: MemCompression
+2025-04-13 15:21:51,130 - File not found: Registry
+2025-04-13 15:21:52,186 - File not found: MemCompression
+2025-04-13 15:21:59,730 - File not found: Registry
+2025-04-13 15:22:00,779 - File not found: MemCompression
+2025-04-13 15:22:07,847 - File not found: Registry
+2025-04-13 15:22:08,835 - File not found: MemCompression
+2025-04-13 15:22:16,409 - File not found: Registry
+2025-04-13 15:22:17,458 - File not found: MemCompression
+2025-04-13 15:22:24,407 - File not found: Registry
+2025-04-13 15:22:25,411 - File not found: MemCompression
+2025-04-13 15:22:32,926 - File not found: Registry
+2025-04-13 15:22:33,930 - File not found: MemCompression
+2025-04-13 15:22:41,093 - File not found: Registry
+2025-04-13 15:22:42,067 - File not found: MemCompression
+2025-04-13 15:22:49,290 - File not found: Registry
+2025-04-13 15:22:50,339 - File not found: MemCompression
+2025-04-13 15:22:57,546 - File not found: Registry
+2025-04-13 15:22:58,565 - File not found: MemCompression
+2025-04-13 15:23:05,469 - File not found: Registry
+2025-04-13 15:23:06,518 - File not found: MemCompression
+2025-04-13 15:23:13,544 - File not found: Registry
+2025-04-13 15:23:14,553 - File not found: MemCompression
+2025-04-13 15:23:21,616 - File not found: Registry
+2025-04-13 15:23:22,600 - File not found: MemCompression
+2025-04-13 15:23:29,846 - File not found: Registry
+2025-04-13 15:23:30,865 - File not found: MemCompression
+2025-04-13 15:23:37,988 - File not found: Registry
+2025-04-13 15:23:39,055 - File not found: MemCompression
+2025-04-13 15:23:46,304 - File not found: Registry
+2025-04-13 15:23:47,243 - File not found: MemCompression
+2025-04-13 15:23:55,029 - File not found: Registry
+2025-04-13 15:23:56,017 - File not found: MemCompression
+2025-04-13 15:24:03,337 - File not found: Registry
+2025-04-13 15:24:04,316 - File not found: MemCompression
+2025-04-13 15:24:12,203 - File not found: Registry
+2025-04-13 15:24:13,351 - File not found: MemCompression
+2025-04-13 15:24:21,345 - File not found: Registry
+2025-04-13 15:24:22,338 - File not found: MemCompression
+2025-04-13 15:24:29,598 - File not found: Registry
+2025-04-13 15:24:30,635 - File not found: MemCompression
+2025-04-13 15:24:38,035 - File not found: Registry
+2025-04-13 15:24:39,106 - File not found: MemCompression
+2025-04-13 15:24:46,703 - File not found: Registry
+2025-04-13 15:24:47,833 - File not found: MemCompression
+2025-04-13 15:24:56,050 - File not found: Registry
+2025-04-13 15:24:57,150 - File not found: MemCompression
+2025-04-13 15:25:05,330 - File not found: Registry
+2025-04-13 15:25:06,435 - File not found: MemCompression
+2025-04-13 15:25:14,566 - File not found: Registry
+2025-04-13 15:25:15,683 - File not found: MemCompression
+2025-04-13 15:25:25,266 - File not found: Registry
+2025-04-13 15:25:26,450 - File not found: MemCompression
+2025-04-13 15:25:35,166 - File not found: Registry
+2025-04-13 15:25:36,350 - File not found: MemCompression
+2025-04-13 15:25:44,766 - File not found: Registry
+2025-04-13 15:25:45,934 - File not found: MemCompression
+2025-04-13 15:25:53,449 - File not found: Registry
+2025-04-13 15:25:54,450 - File not found: MemCompression
+2025-04-13 15:26:02,631 - File not found: Registry
+2025-04-13 15:26:03,667 - File not found: MemCompression
+2025-04-13 15:26:11,361 - File not found: Registry
+2025-04-13 15:26:12,595 - File not found: MemCompression
+2025-04-13 15:26:20,424 - File not found: Registry
+2025-04-13 15:26:21,449 - File not found: MemCompression
+2025-04-13 15:26:29,371 - File not found: Registry
+2025-04-13 15:26:30,445 - File not found: MemCompression
+2025-04-13 15:26:39,117 - File not found: Registry
+2025-04-13 15:26:40,366 - File not found: MemCompression
+2025-04-13 15:26:49,365 - File not found: Registry
+2025-04-13 15:26:50,566 - File not found: MemCompression
+2025-04-13 15:26:58,527 - File not found: Registry
+2025-04-13 15:26:59,667 - File not found: MemCompression
+2025-04-13 15:27:07,803 - File not found: Registry
+2025-04-13 15:27:08,960 - File not found: MemCompression
+2025-04-13 15:27:17,384 - File not found: Registry
+2025-04-13 15:27:18,531 - File not found: MemCompression
+2025-04-13 15:27:26,708 - File not found: Registry
+2025-04-13 15:27:27,797 - File not found: MemCompression
+2025-04-13 15:27:35,845 - File not found: Registry
+2025-04-13 15:27:36,927 - File not found: MemCompression
+2025-04-13 15:27:44,659 - File not found: Registry
+2025-04-13 15:27:45,691 - File not found: MemCompression
+2025-04-13 15:27:53,641 - File not found: Registry
+2025-04-13 15:27:54,762 - File not found: MemCompression
+2025-04-13 15:28:02,087 - File not found: Registry
+2025-04-13 15:28:03,270 - File not found: MemCompression
+2025-04-13 15:28:10,963 - File not found: Registry
+2025-04-13 15:28:12,170 - File not found: MemCompression
+2025-04-13 15:28:19,807 - File not found: Registry
+2025-04-13 15:28:20,883 - File not found: MemCompression
+2025-04-13 15:28:28,158 - File not found: Registry
+2025-04-13 15:28:29,171 - File not found: MemCompression
+2025-04-13 15:28:36,570 - File not found: Registry
+2025-04-13 15:28:37,579 - File not found: MemCompression
+2025-04-13 15:28:44,896 - File not found: Registry
+2025-04-13 15:28:45,880 - File not found: MemCompression
+2025-04-13 15:28:52,978 - File not found: Registry
+2025-04-13 15:28:54,212 - File not found: MemCompression
+2025-04-13 15:29:01,855 - File not found: Registry
+2025-04-13 15:29:02,826 - File not found: MemCompression
+2025-04-13 15:29:10,029 - File not found: Registry
+2025-04-13 15:29:11,091 - File not found: MemCompression
+2025-04-13 15:29:18,594 - File not found: Registry
+2025-04-13 15:29:19,595 - File not found: MemCompression
+2025-04-13 15:29:26,973 - File not found: Registry
+2025-04-13 15:29:28,032 - File not found: MemCompression
+2025-04-13 15:29:35,464 - File not found: Registry
+2025-04-13 15:29:36,446 - File not found: MemCompression
+2025-04-13 15:29:43,806 - File not found: Registry
+2025-04-13 15:29:44,781 - File not found: MemCompression
+2025-04-13 15:29:51,894 - File not found: Registry
+2025-04-13 15:29:52,853 - File not found: MemCompression
+2025-04-13 15:30:00,168 - File not found: Registry
+2025-04-13 15:30:01,150 - File not found: MemCompression
+2025-04-13 15:30:08,536 - File not found: Registry
+2025-04-13 15:30:09,490 - File not found: MemCompression
+2025-04-13 15:30:16,721 - File not found: Registry
+2025-04-13 15:30:17,786 - File not found: MemCompression
+2025-04-13 15:30:24,961 - File not found: Registry
+2025-04-13 15:30:25,988 - File not found: MemCompression
+2025-04-13 15:30:33,323 - File not found: Registry
+2025-04-13 15:30:34,376 - File not found: MemCompression
+2025-04-13 15:30:41,585 - File not found: Registry
+2025-04-13 15:30:42,611 - File not found: MemCompression
+2025-04-13 15:30:49,736 - File not found: Registry
+2025-04-13 15:30:50,834 - File not found: MemCompression
+2025-04-13 15:30:58,339 - File not found: Registry
+2025-04-13 15:30:59,361 - File not found: MemCompression
+2025-04-13 15:31:06,603 - File not found: Registry
+2025-04-13 15:31:07,572 - File not found: MemCompression
+2025-04-13 15:31:14,809 - File not found: Registry
+2025-04-13 15:31:15,896 - File not found: MemCompression
+2025-04-13 15:31:22,862 - File not found: Registry
+2025-04-13 15:31:23,870 - File not found: MemCompression
+2025-04-13 15:31:31,050 - File not found: Registry
+2025-04-13 15:31:32,160 - File not found: MemCompression
+2025-04-13 15:31:39,500 - File not found: Registry
+2025-04-13 15:31:40,588 - File not found: MemCompression
+2025-04-13 15:31:48,183 - File not found: Registry
+2025-04-13 15:31:49,123 - File not found: MemCompression
+2025-04-13 15:31:56,373 - File not found: Registry
+2025-04-13 15:31:57,489 - File not found: MemCompression
+2025-04-13 15:32:05,434 - File not found: Registry
+2025-04-13 15:32:06,397 - File not found: MemCompression
+2025-04-13 15:32:13,727 - File not found: Registry
+2025-04-13 15:32:14,829 - File not found: MemCompression
+2025-04-13 15:32:21,953 - File not found: Registry
+2025-04-13 15:32:22,926 - File not found: MemCompression
+2025-04-13 15:32:29,848 - File not found: Registry
+2025-04-13 15:32:30,820 - File not found: MemCompression
+2025-04-13 15:32:37,978 - File not found: Registry
+2025-04-13 15:32:38,945 - File not found: MemCompression
+2025-04-13 15:32:46,006 - File not found: Registry
+2025-04-13 15:32:47,028 - File not found: MemCompression
+2025-04-13 15:32:54,100 - File not found: Registry
+2025-04-13 15:32:55,239 - File not found: MemCompression
+2025-04-13 15:33:02,310 - File not found: Registry
+2025-04-13 15:33:03,202 - File not found: MemCompression
+2025-04-13 15:33:10,145 - File not found: Registry
+2025-04-13 15:33:11,061 - File not found: MemCompression
+2025-04-13 15:33:18,102 - File not found: Registry
+2025-04-13 15:33:19,262 - File not found: MemCompression
+2025-04-13 15:33:27,472 - File not found: Registry
+2025-04-13 15:33:28,756 - File not found: MemCompression
+2025-04-13 15:33:37,490 - File not found: Registry
+2025-04-13 15:33:38,518 - File not found: MemCompression
+2025-04-13 15:33:45,957 - File not found: Registry
+2025-04-13 15:33:46,977 - File not found: MemCompression
+2025-04-13 15:33:54,613 - File not found: Registry
+2025-04-13 15:33:55,758 - File not found: MemCompression
+2025-04-13 15:34:03,489 - File not found: Registry
+2025-04-13 15:34:04,542 - File not found: MemCompression
+2025-04-13 15:34:12,405 - File not found: Registry
+2025-04-13 15:34:13,483 - File not found: MemCompression
+2025-04-13 15:34:20,874 - File not found: Registry
+2025-04-13 15:34:21,902 - File not found: MemCompression
+2025-04-13 15:34:29,413 - File not found: Registry
+2025-04-13 15:34:30,432 - File not found: MemCompression
+2025-04-13 15:34:37,816 - File not found: Registry
+2025-04-13 15:34:38,792 - File not found: MemCompression
+2025-04-13 15:34:45,761 - File not found: Registry
+2025-04-13 15:34:46,772 - File not found: MemCompression
+2025-04-13 15:34:53,939 - File not found: Registry
+2025-04-13 15:34:54,900 - File not found: MemCompression
+2025-04-13 15:35:02,920 - File not found: Registry
+2025-04-13 15:35:04,160 - File not found: MemCompression
+2025-04-13 15:35:12,221 - File not found: Registry
+2025-04-13 15:35:13,386 - File not found: MemCompression
+2025-04-13 15:35:21,534 - File not found: Registry
+2025-04-13 15:35:22,544 - File not found: MemCompression
+2025-04-13 15:35:29,546 - File not found: Registry
+2025-04-13 15:35:30,439 - File not found: MemCompression
+2025-04-13 15:35:37,338 - File not found: Registry
+2025-04-13 15:35:38,395 - File not found: MemCompression
+2025-04-13 15:35:45,830 - File not found: Registry
+2025-04-13 15:35:47,112 - File not found: MemCompression
+2025-04-13 15:35:55,411 - File not found: Registry
+2025-04-13 15:35:56,615 - File not found: MemCompression
+2025-04-13 15:36:04,608 - File not found: Registry
+2025-04-13 15:36:05,796 - File not found: MemCompression
+2025-04-13 15:36:14,121 - File not found: Registry
+2025-04-13 15:36:15,252 - File not found: MemCompression
+2025-04-13 15:36:23,432 - File not found: Registry
+2025-04-13 15:36:24,748 - File not found: MemCompression
+2025-04-13 15:36:32,933 - File not found: Registry
+2025-04-13 15:36:34,128 - File not found: MemCompression
+2025-04-13 15:36:43,593 - File not found: Registry
+2025-04-13 15:36:44,966 - File not found: MemCompression
+2025-04-13 15:36:54,499 - File not found: Registry
+2025-04-13 15:36:56,053 - File not found: MemCompression
+2025-04-13 15:37:05,065 - File not found: Registry
+2025-04-13 15:37:06,466 - File not found: MemCompression
+2025-04-13 15:37:15,304 - File not found: Registry
+2025-04-13 15:37:16,503 - File not found: MemCompression
+2025-04-13 15:37:24,820 - File not found: Registry
+2025-04-13 15:37:26,004 - File not found: MemCompression
+2025-04-13 15:37:34,314 - File not found: Registry
+2025-04-13 15:37:35,626 - File not found: MemCompression
+2025-04-13 15:37:44,050 - File not found: Registry
+2025-04-13 15:37:45,355 - File not found: MemCompression
+2025-04-13 15:37:53,320 - File not found: Registry
+2025-04-13 15:37:54,433 - File not found: MemCompression
+2025-04-13 15:38:02,934 - File not found: Registry
+2025-04-13 15:38:04,164 - File not found: MemCompression
+2025-04-13 15:38:12,338 - File not found: Registry
+2025-04-13 15:38:13,452 - File not found: MemCompression
+2025-04-13 15:38:21,656 - File not found: Registry
+2025-04-13 15:38:22,885 - File not found: MemCompression
+2025-04-13 15:38:31,197 - File not found: Registry
+2025-04-13 15:38:32,386 - File not found: MemCompression
+2025-04-13 15:38:40,496 - File not found: Registry
+2025-04-13 15:38:41,786 - File not found: MemCompression
+2025-04-13 15:38:50,396 - File not found: Registry
+2025-04-13 15:38:51,318 - File not found: MemCompression
+2025-04-13 17:59:36,317 - File not found: Registry
+2025-04-13 17:59:36,681 - File not found: MemCompression
+2025-04-13 17:59:40,208 - File not found: Registry
+2025-04-13 17:59:40,529 - File not found: MemCompression
+2025-04-13 17:59:44,256 - File not found: Registry
+2025-04-13 17:59:44,586 - File not found: MemCompression
+2025-04-13 17:59:48,089 - File not found: Registry
+2025-04-13 17:59:48,569 - File not found: MemCompression
+2025-04-13 17:59:52,309 - File not found: Registry
+2025-04-13 17:59:52,777 - File not found: MemCompression
+2025-04-13 17:59:56,581 - File not found: Registry
+2025-04-13 17:59:57,421 - File not found: MemCompression
+2025-04-13 18:00:01,807 - File not found: Registry
+2025-04-13 18:00:02,357 - File not found: MemCompression
+2025-04-13 18:00:06,706 - File not found: Registry
+2025-04-13 18:00:07,185 - File not found: MemCompression
+2025-04-13 18:00:10,874 - File not found: Registry
+2025-04-13 18:00:11,187 - File not found: MemCompression
+2025-04-13 18:00:14,926 - File not found: Registry
+2025-04-13 18:00:15,395 - File not found: MemCompression
+2025-04-13 18:00:19,781 - File not found: Registry
+2025-04-13 18:00:20,202 - File not found: MemCompression
+2025-04-13 18:00:24,209 - File not found: Registry
+2025-04-13 18:00:24,729 - File not found: MemCompression
+2025-04-13 18:00:29,577 - File not found: Registry
+2025-04-13 18:00:29,945 - File not found: MemCompression
+2025-04-13 18:00:33,663 - File not found: Registry
+2025-04-13 18:00:33,991 - File not found: MemCompression
+2025-04-13 18:00:37,717 - File not found: Registry
+2025-04-13 18:00:38,111 - File not found: MemCompression
+2025-04-13 18:00:41,628 - File not found: Registry
+2025-04-13 18:00:42,248 - File not found: MemCompression
+2025-04-13 18:00:45,776 - File not found: Registry
+2025-04-13 18:00:47,015 - File not found: MemCompression
+2025-04-13 18:00:51,640 - File not found: Registry
+2025-04-13 18:00:51,946 - File not found: MemCompression
+2025-04-13 18:00:55,569 - File not found: Registry
+2025-04-13 18:00:55,919 - File not found: MemCompression
+2025-04-13 18:00:59,824 - File not found: Registry
+2025-04-13 18:01:00,362 - File not found: MemCompression
+2025-04-13 18:01:04,019 - File not found: Registry
+2025-04-13 18:01:04,386 - File not found: MemCompression
+2025-04-13 18:01:08,111 - File not found: Registry
+2025-04-13 18:01:08,442 - File not found: MemCompression
+2025-04-13 18:01:12,226 - File not found: Registry
+2025-04-13 18:01:12,538 - File not found: MemCompression
+2025-04-13 18:01:16,541 - File not found: Registry
+2025-04-13 18:01:17,077 - File not found: MemCompression
+2025-04-13 18:01:20,866 - File not found: Registry
+2025-04-13 18:01:21,529 - File not found: MemCompression
+2025-04-13 18:01:25,227 - File not found: Registry
+2025-04-13 18:01:25,539 - File not found: MemCompression
+2025-04-13 18:01:29,316 - File not found: Registry
+2025-04-13 18:01:29,614 - File not found: MemCompression
+2025-04-13 18:01:33,439 - File not found: Registry
+2025-04-13 18:01:33,833 - File not found: MemCompression
+2025-04-13 18:01:37,551 - File not found: Registry
+2025-04-13 18:01:37,898 - File not found: MemCompression
+2025-04-13 18:01:41,744 - File not found: Registry
+2025-04-13 18:01:42,079 - File not found: MemCompression
+2025-04-13 18:01:45,625 - File not found: Registry
+2025-04-13 18:01:46,088 - File not found: MemCompression
+2025-04-13 18:01:50,551 - File not found: Registry
+2025-04-13 18:01:51,056 - File not found: MemCompression
+2025-04-13 18:01:55,037 - File not found: Registry
+2025-04-13 18:01:55,367 - File not found: MemCompression
+2025-04-13 18:01:58,957 - File not found: Registry
+2025-04-13 18:01:59,337 - File not found: MemCompression
+2025-04-13 18:02:02,798 - File not found: Registry
+2025-04-13 18:02:03,146 - File not found: MemCompression
+2025-04-13 18:02:06,676 - File not found: Registry
+2025-04-13 18:02:06,966 - File not found: MemCompression
+2025-04-13 18:02:10,350 - File not found: Registry
+2025-04-13 18:02:10,679 - File not found: MemCompression
+2025-04-13 18:02:14,284 - File not found: Registry
+2025-04-13 18:02:14,615 - File not found: MemCompression
+2025-04-13 18:02:18,273 - File not found: Registry
+2025-04-13 18:02:18,595 - File not found: MemCompression
+2025-04-13 18:02:22,843 - File not found: Registry
+2025-04-13 18:02:23,202 - File not found: MemCompression
+2025-04-13 18:02:26,746 - File not found: Registry
+2025-04-13 18:02:27,111 - File not found: MemCompression
+2025-04-13 18:02:30,941 - File not found: Registry
+2025-04-13 18:02:31,313 - File not found: MemCompression
+2025-04-13 18:02:35,257 - File not found: Registry
+2025-04-13 18:02:35,738 - File not found: MemCompression
+2025-04-13 18:02:39,406 - File not found: Registry
+2025-04-13 18:02:39,736 - File not found: MemCompression
+2025-04-13 18:02:43,504 - File not found: Registry
+2025-04-13 18:02:43,811 - File not found: MemCompression
+2025-04-13 18:02:46,692 - File not found: Registry
+2025-04-13 18:02:47,176 - File not found: MemCompression
+2025-04-13 18:02:47,756 - File not found: Registry
+2025-04-13 18:02:48,176 - File not found: MemCompression
+2025-04-13 18:02:51,236 - File not found: Registry
+2025-04-13 18:02:51,502 - File not found: MemCompression
+2025-04-13 18:02:52,028 - File not found: Registry
+2025-04-13 18:02:52,396 - File not found: MemCompression
+2025-04-13 18:02:56,162 - File not found: Registry
+2025-04-13 18:02:56,241 - File not found: Registry
+2025-04-13 18:02:56,706 - File not found: MemCompression
+2025-04-13 18:02:56,776 - File not found: MemCompression
+2025-04-13 18:03:00,351 - File not found: Registry
+2025-04-13 18:03:00,656 - File not found: MemCompression
+2025-04-13 18:03:01,226 - File not found: Registry
+2025-04-13 18:03:01,547 - File not found: MemCompression
+2025-04-13 18:03:03,577 - \u274c Manually killed: python.exe (PID: 9456)
+2025-04-13 18:03:04,226 - File not found: Registry
+2025-04-13 18:03:04,538 - File not found: MemCompression
+2025-04-13 18:03:07,856 - File not found: Registry
+2025-04-13 18:03:08,067 - File not found: Registry
+2025-04-13 18:03:08,367 - File not found: MemCompression
+2025-04-13 18:03:08,687 - File not found: MemCompression
+2025-04-13 18:03:10,293 - File not found: Registry
+2025-04-13 18:03:11,021 - File not found: MemCompression
+2025-04-13 18:03:12,266 - File not found: Registry
+2025-04-13 18:03:12,574 - File not found: MemCompression
+2025-04-13 18:03:12,930 - File not found: Registry
+2025-04-13 18:03:13,346 - File not found: MemCompression
+2025-04-13 18:03:16,226 - File not found: Registry
+2025-04-13 18:03:16,567 - File not found: MemCompression
+2025-04-13 18:03:17,166 - File not found: Registry
+2025-04-13 18:03:17,921 - File not found: MemCompression
+2025-04-13 18:03:20,973 - \u274c Manually killed: python.exe (PID: 13384)
+2025-04-13 18:03:21,127 - File not found: Registry
+2025-04-13 18:03:21,422 - File not found: MemCompression
+2025-04-13 18:03:22,798 - File not found: Registry
+2025-04-13 18:03:23,112 - File not found: MemCompression
+2025-04-13 18:03:24,380 - File not found: Registry
+2025-04-13 18:03:24,684 - File not found: Registry
+2025-04-13 18:03:24,688 - File not found: MemCompression
+2025-04-13 18:03:25,126 - File not found: MemCompression
+2025-04-13 18:03:26,421 - File not found: Registry
+2025-04-13 18:03:27,126 - File not found: MemCompression
+2025-04-13 18:03:29,116 - File not found: Registry
+2025-04-13 18:03:29,380 - File not found: MemCompression
+2025-04-13 18:03:31,228 - File not found: Registry
+2025-04-13 18:03:31,481 - File not found: MemCompression
+2025-04-13 18:03:32,564 - File not found: Registry
+2025-04-13 18:03:32,946 - File not found: MemCompression
+2025-04-13 18:03:36,086 - File not found: Registry
+2025-04-13 18:48:27,662 - File not found: Registry
+2025-04-13 18:48:29,443 - File not found: MemCompression
+2025-04-13 18:48:37,075 - File not found: Registry
+2025-04-13 18:48:38,633 - File not found: MemCompression
+2025-04-13 18:48:45,902 - File not found: Registry
+2025-04-13 18:48:47,521 - File not found: MemCompression
+2025-04-13 18:48:49,716 - File not found: Registry
+2025-04-13 18:48:51,341 - File not found: MemCompression
+2025-04-13 18:48:55,525 - File not found: Registry
+2025-04-13 18:48:57,650 - File not found: MemCompression
+2025-04-13 18:48:57,681 - File not found: Registry
+2025-04-13 18:48:59,707 - File not found: MemCompression
+2025-04-13 18:49:06,692 - File not found: Registry
+2025-04-13 18:49:07,004 - \u274c Manually killed: python.exe (PID: 9708)
+2025-04-13 18:49:07,062 - File not found: Registry
+2025-04-13 18:49:09,291 - File not found: MemCompression
+2025-04-13 18:49:09,306 - File not found: MemCompression
+2025-04-13 18:57:43,275 - File not found: Registry
+2025-04-13 18:57:44,622 - File not found: MemCompression
+2025-04-13 18:57:51,577 - File not found: Registry
+2025-04-13 18:57:53,016 - File not found: MemCompression
+2025-04-13 18:57:59,772 - File not found: Registry
+2025-04-13 18:58:01,075 - File not found: MemCompression
+2025-04-13 18:58:07,664 - File not found: Registry
+2025-04-13 18:58:08,955 - File not found: MemCompression
+2025-04-13 18:58:15,882 - File not found: Registry
+2025-04-13 18:58:17,087 - File not found: MemCompression
+2025-04-13 18:58:23,450 - File not found: Registry
+2025-04-13 18:58:24,900 - File not found: MemCompression
+2025-04-13 18:58:31,659 - File not found: Registry
+2025-04-13 18:58:33,011 - File not found: MemCompression
+2025-04-13 18:58:39,840 - File not found: Registry
+2025-04-13 18:58:41,230 - File not found: MemCompression
+2025-04-13 18:58:47,993 - File not found: Registry
+2025-04-13 18:58:49,534 - File not found: MemCompression
+2025-04-13 18:58:56,557 - File not found: Registry
+2025-04-13 18:58:57,932 - File not found: MemCompression
+2025-04-13 18:59:04,667 - File not found: Registry
+2025-04-13 18:59:06,001 - File not found: MemCompression
+2025-04-13 18:59:12,708 - File not found: Registry
+2025-04-13 18:59:13,965 - File not found: MemCompression
+2025-04-13 18:59:20,590 - File not found: Registry
+2025-04-13 18:59:22,279 - File not found: MemCompression
+2025-04-13 18:59:29,226 - File not found: Registry
+2025-04-13 18:59:30,747 - File not found: MemCompression
+2025-04-13 18:59:37,524 - File not found: Registry
+2025-04-13 18:59:39,036 - File not found: MemCompression
+2025-04-13 18:59:45,922 - File not found: Registry
+2025-04-13 18:59:47,283 - File not found: MemCompression
+2025-04-13 18:59:54,434 - File not found: Registry
+2025-04-13 18:59:55,881 - File not found: MemCompression
+2025-04-13 19:00:00,304 - File not found: Registry
+2025-04-13 19:00:00,761 - File not found: MemCompression
+2025-04-13 19:00:09,271 - File not found: Registry
+2025-04-13 19:00:09,704 - File not found: MemCompression
+2025-04-13 19:00:17,649 - File not found: Registry
+2025-04-13 19:00:18,383 - File not found: MemCompression
+2025-04-13 19:00:29,147 - File not found: Registry
+2025-04-13 19:00:29,820 - File not found: MemCompression
+2025-04-13 19:01:34,399 - \u274c Manually killed: python.exe (PID: 1324)
+2025-04-13 19:01:53,738 - \u274c Manually killed: python.exe (PID: 16464)
+2025-04-13 19:03:21,526 - \u274c Manually killed: python.exe (PID: 15428)
+2025-04-13 19:04:07,966 - \u274c Manually killed: python.exe (PID: 13844)
+2025-04-13 19:05:07,438 - \u274c Manually killed: python.exe (PID: 13880)
+2025-04-13 19:44:59,242 - \u274c Manually killed: python.exe (PID: 7608)
+2025-04-13 19:45:27,372 - \u274c Manually killed: python.exe (PID: 16600)
+2025-04-13 20:01:41,102 - \u274c Manually killed: RuntimeBroker.exe (PID: 13220)
+2025-04-13 20:01:59,674 - \u274c Manually killed: python.exe (PID: 16912)
+2025-04-14 02:29:34,534 - \u274c Manually killed: python.exe (PID: 14836)
+2025-04-14 04:28:32,911 - \u274c Manually killed: python.exe (PID: 8596)
+2025-04-14 04:29:04,870 - \u274c Manually killed: python.exe (PID: 2584)
+2025-04-14 11:21:51,569 - \u274c Manually killed: python.exe (PID: 12996)

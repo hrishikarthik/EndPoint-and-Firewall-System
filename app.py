@@ -1,8 +1,9 @@
-#app.py
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, redirect, url_for
 import requests
 import json
 import os
+import threading
+from firewall import start_sniffing
 
 app = Flask(__name__)
 EDR_API_URL = "http://127.0.0.1:5001"
@@ -31,9 +32,8 @@ def firewall_page():
     except FileNotFoundError:
         logs = []
 
-    logs = logs[::-1]  # Show recent logs first
+    logs = logs[::-1]
 
-    # Load existing rules
     rules = []
     if os.path.exists(FIREWALL_RULES_FILE):
         with open(FIREWALL_RULES_FILE, "r") as rf:
@@ -44,17 +44,17 @@ def firewall_page():
 
     return render_template("firewall.html", logs=logs, rules=rules)
 
-@app.route("/submit_rule", methods=["POST"])
-def submit_rule():
+@app.route("/add_rule", methods=["POST"])
+def add_rule():
     new_rule = {
-        "action": request.form.get("action"),
-        "protocol": request.form.get("protocol"),
-        "src_ip": request.form.get("src_ip"),
-        "dst_ip": request.form.get("dst_ip"),
-        "port": request.form.get("port")
+        "action": request.form.get("action", ""),
+        "protocol": request.form.get("protocol", ""),
+        "src_ip": request.form.get("src_ip", ""),
+        "dst_ip": request.form.get("dst_ip", ""),
+        "src_port": request.form.get("src_port", ""),
+        "dst_port": request.form.get("dst_port", "")
     }
 
-    # Load existing rules
     rules = []
     if os.path.exists(FIREWALL_RULES_FILE):
         with open(FIREWALL_RULES_FILE, "r") as rf:
@@ -63,15 +63,12 @@ def submit_rule():
             except json.JSONDecodeError:
                 rules = []
 
-    # Append new rule
     rules.append(new_rule)
 
-    # Save back
     with open(FIREWALL_RULES_FILE, "w") as wf:
         json.dump(rules, wf, indent=4)
 
-    return jsonify({"message": "Rule added successfully", "rule": new_rule})
-
+    return redirect(url_for('firewall_page'))
 
 @app.route("/get_processes")
 def get_processes():
@@ -89,5 +86,9 @@ def kill_process(pid):
     except:
         return jsonify({"message": "Failed to reach EDR API"})
 
+def run_packet_sniffing():
+    start_sniffing()
+
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    threading.Thread(target=run_packet_sniffing, daemon=True).start()
+    app.run(debug=True)
