@@ -1,7 +1,18 @@
-Flask
-psutil
-scapy
-requests
-flask
-flask_socketio
-eventlet
+# Core dependencies
+psutil>=5.9.0
+requests>=2.31.0
+cryptography>=41.0.0
+
+# GUI and visualization
+matplotlib>=3.7.0
+
+# Security and monitoring
+pywin32>=306; sys_platform == "win32"
+netifaces>=0.11.0
+
+# Data analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Configuration
+configparser>=5.3.0 
